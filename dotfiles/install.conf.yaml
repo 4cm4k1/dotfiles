@@ -24,4 +24,6 @@
     ~/.config/yarn/global/package.json:
 
 - shell:
-  - git update-submodules
+  - []
+  - [git submodule update --init --recursive, Installing submodules]
+  - [
