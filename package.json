@@ -1,0 +1,9 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "utility for bootstrapping my macOS machine",
+  "main": "index.js",
+  "author": "Anthony Maki",
+  "license": "MIT",
+  "dependencies": {}
+}

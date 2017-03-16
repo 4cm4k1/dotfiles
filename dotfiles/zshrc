@@ -1,0 +1,65 @@
+# oh-my-zsh PATH
+export ZSH=$HOME/.oh-my-zsh
+
+# oh-my-zsh themes (~/.oh-my-zsh/themes/*)
+ZSH_THEME='pure'
+
+# case sensitivity
+CASE_SENSITIVE='false'
+HYPHEN_INSENSITIVE='false'
+
+# oh-my-zsh auto-update configuration
+DISABLE_AUTO_UPDATE='false'
+export UPDATE_ZSH_DAYS=1
+
+# other oh-my-zsh configuration
+DISABLE_LS_COLORS='false'
+DISABLE_AUTO_TITLE='false'
+
+# autocorrection
+ENABLE_CORRECTION='true'
+
+# completion waiting dots
+COMPLETION_WAITING_DOTS='true'
+
+# leaves out untracked files in dirty status
+DISABLE_UNTRACKED_FILES_DIRTY='false'
+
+# date format: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+HIST_STAMPS='yyyy-mm-dd'
+
+# plugins (~/.oh-my-zsh/plugins/*)
+# custom plugins (~/.oh-my-zsh/custom/plugins/)
+plugins=(adb aws bower catimg colored-man-pages common-aliases copybuffer copydir copyfile docker docker-compose dotenv emoji encode64 extract frontend-search gem git github grunt gulp heroku httpie jira jsontools ng node npm nyan osx pip thefuck web-search xcode yarn zsh-autosuggestions zsh-syntax-highlighting zsh_reload)
+
+# set PATH variables
+export ANDROID_HOME=$(brew --prefix android-sdk)
+export PATH=$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:$(yarn global bin):$PATH
+export MANPATH=$(brew --prefix coreutils)/libexec/gnuman:$MANPATH
+
+# set shell language and encoding format
+export LC_ALL=en_US.UTF-8
+export LANG='en_US'
+
+# set preferred editors
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='nano'
+else
+  export EDITOR='nano'
+fi
+
+# launch & configure gpg-agent (for gpg & ssh ops from YubiKey)
+export SSH_AUTH_SOCK=$HOME/.gnupg/S.gpg-agent.ssh
+gpgconf --launch gpg-agent
+
+# launch oh-my-zsh
+source $ZSH/oh-my-zsh.sh
+
+# set custom aliases (after oh-my-zsh plugins)
+alias atom='atom-beta'
+alias ccat='pygmentize -g -O style=colorful,linenos=1'
+alias gpg='gpg2'
+alias gr='gr'
+alias ls='ls --color=always -AGHX --group-directories-first'
+alias pip='pip3'
+alias python='python3'
