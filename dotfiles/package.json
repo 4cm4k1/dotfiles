@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@angular/cli": "^1.0.0-rc.2",
+    "@angular/cli": "^1.0.0",
     "auto-install": "^1.7.3",
     "ava": "^0.18.2",
     "babel-cli": "^6.24.0",
@@ -38,10 +38,10 @@
     "js-beautify": "^1.6.11",
     "jsdoc": "^3.4.3",
     "markdown-pdf": "^7.0.0",
+    "marked": "^0.3.6",
     "mocha": "^3.2.0",
     "node-gyp": "^3.5.0",
     "nodemon": "^1.11.0",
-    "npm": "^4.4.1",
     "pageres-cli": "^4.0.0",
     "public-ip-cli": "^1.1.2",
     "pure-prompt": "^1.5.1",
@@ -51,6 +51,7 @@
     "standard": "^9.0.1",
     "typescript": "^2.2.1",
     "webpack": "^2.2.1",
-    "xo": "^0.17.1"
+    "wifi-password-cli": "^1.0.0",
+    "xo": "^0.18.0"
   }
 }

@@ -32,6 +32,12 @@ HIST_STAMPS='yyyy-mm-dd'
 # custom plugins (~/.oh-my-zsh/custom/plugins/)
 plugins=(adb aws bower catimg colored-man-pages common-aliases copybuffer copydir copyfile docker docker-compose dotenv emoji encode64 extract frontend-search gem git github grunt gulp heroku httpie jira jsontools ng node npm nyan osx pip thefuck web-search xcode yarn zsh-autosuggestions zsh-syntax-highlighting zsh_reload)
 
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc' ]; then source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc' ]; then source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'; fi
+
 # set PATH variables
 export ANDROID_HOME=$(brew --prefix android-sdk)
 export PATH=$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:$(yarn global bin):$PATH
