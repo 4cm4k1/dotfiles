@@ -1,7 +1,7 @@
 # test directories
 __tests__
-test
-tests
+#test
+#tests
 powered-test
 
 # asset directories
@@ -34,8 +34,8 @@ Gruntfile.js
 .flowconfig
 .documentup.json
 .yarn-metadata.json
-.*.yml
-*.yml
+#.*.yml
+#*.yml
 
 # misc
 *.gz
