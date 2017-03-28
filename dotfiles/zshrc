@@ -35,12 +35,14 @@ plugins=(adb aws bower catimg colored-man-pages common-aliases copybuffer copydi
 
 # SET PACKAGE MANAGER & SDK LOCATIONS
 export BREW_HOME=$(brew --prefix)
-export ANDROID_HOME=${BREW_HOME}/opt/android-sdk
+export ANDROID_HOME=${BREW_HOME}/Caskroom/android-sdk
 export GCLOUD_SDK=${BREW_HOME}/Caskroom/google-cloud-sdk/latest/google-cloud-sdk
 
 # SET PATH COMPONENTS
 export BREW_BIN=${BREW_HOME}/bin:${BREW_HOME}/sbin
-export ANDROID_BIN=${ANDROID_HOME}/bin
+export ANDROID_PLATFORM_TOOLS=${ANDROID_HOME}/platform-tools
+export ANDROID_TOOLS=${ANDROID_HOME}/tools
+export ANDROID_BIN=${ANDROID_PLATFORM_TOOLS}:${ANDROID_TOOLS}
 export COREUTILS_BIN=$(brew --prefix coreutils)/libexec/gnubin
 export DEFAULT_BIN=/usr/bin:/bin:/usr/sbin:/sbin
 export GCLOUD_BIN=${GCLOUD_SDK}/path.zsh.inc
@@ -54,7 +56,7 @@ source ${GCLOUD_SDK}/completion.zsh.inc
 
 # SET PATH & MANPATH
 export PATH=${COREUTILS_BIN}:${BREW_BIN}:${ANDROID_BIN}:${DEFAULT_BIN}:${PATH}
-export MANPATH=${COREUTILS_MAN}:${MANPATH}
+export MANPATH=${COREUTILS_MAN}
 
 # SET LANGUAGE & ENCODING
 export LC_ALL=en_US.UTF-8
