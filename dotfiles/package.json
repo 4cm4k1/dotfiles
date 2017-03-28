@@ -28,6 +28,8 @@
     "file-url-cli": "^1.0.0",
     "firebase-tools": "^3.5.0",
     "fkill-cli": "^3.5.1",
+    "generate": "^0.13.1",
+    "generate-license": "^0.6.1",
     "get-port-cli": "^1.1.0",
     "git-run": "^0.5.3",
     "grunt-cli": "^1.2.0",
