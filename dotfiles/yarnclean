@@ -39,4 +39,4 @@ Gruntfile.js
 
 # misc
 *.gz
-*.md
+#*.md
