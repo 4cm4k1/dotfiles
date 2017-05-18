@@ -4,6 +4,10 @@
 
 * text=auto
 .* filter=spacify
+gitattributes filter=spacify
+gitconfig     filter=spacify
+gitignore     filter=spacify
+gitmodules    filter=spacify
 
 *.doc	 diff=astextplain
 *.DOC	 diff=astextplain
