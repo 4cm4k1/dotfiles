@@ -3,6 +3,7 @@
 # common
 
 * text=auto
+.* filter=spacify
 
 *.doc	 diff=astextplain
 *.DOC	 diff=astextplain
