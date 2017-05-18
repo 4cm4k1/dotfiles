@@ -22,6 +22,10 @@
     ~/.gnupg/gpg-agent.conf:
     ~/.gnupg/gpg.conf:
     ~/.config/yarn/global/package.json:
+    ~/Code/bootstrap/.editorconfig:
+    ~/Code/bootstrap/.gitattributes:
+    ~/Code/bootstrap/.gitconfig:
+    ~/Code/bootstrap/.gitignore:
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
