@@ -1,3 +1,5 @@
+.babelrc
+.eslintrc
 .editorconfig
 .gitattributes
 .gitconfig
@@ -6,3 +8,4 @@
 .LSOverride
 Icon
 ._*
+node_modules

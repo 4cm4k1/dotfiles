@@ -7,8 +7,11 @@ fs.readFile('./package.json', (err, data) => {
 	}
 
 	const dependencies = JSON.parse(data).dependencies;
+	let string = '';
+	const yarnCmd = 'yarn global upgrade';
 	Object.keys(dependencies).forEach(dependency => {
-		console.log('Upgrading ' + dependency);
-		childProcess.execSync('yarn global upgrade ' + dependency);
+		string = `${string} ${dependency} `;
 	});
+	console.log(`Upgrading ${string} now!`);
+	childProcess.execSync(`${yarnCmd} ${string}`);
 });

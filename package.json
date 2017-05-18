@@ -5,5 +5,9 @@
   "main": "index.js",
   "author": "Anthony Maki",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "xo": "^0.18.2"
+  }
 }
