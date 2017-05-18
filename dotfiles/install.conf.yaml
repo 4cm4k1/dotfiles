@@ -27,4 +27,4 @@
     ~/Code/bootstrap/.gitconfig:
 
 - shell:
-  - [git submodule update --init --remote --checkout --recursive dotfiles/dotbot, Installing submodules]
+  - [git submodule update --init --remote --checkout dotfiles/dotbot, Updating dotbot]
