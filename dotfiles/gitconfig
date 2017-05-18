@@ -198,5 +198,5 @@
 
 [filter "spacify"]
 
-  clean = expand --tabs=2 --initial
-  smudge = expand --tabs=2 --initial
+  clean = expand --tabs=2
+  smudge = expand --tabs=2
