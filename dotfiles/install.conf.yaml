@@ -16,6 +16,8 @@
     ~/.hyper.js:
     ~/.mongorc.js:
     ~/.config/yarn/global/.yarnclean:
+    ~/.babelrc:
+    ~/.eslintrc:
     ~/.yarnrc:
     ~/.zshrc:
     ~/.aws/config:
