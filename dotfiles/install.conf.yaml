@@ -15,9 +15,8 @@
     ~/.grconfig.json:
     ~/.hyper.js:
     ~/.mongorc.js:
-    ~/.config/yarn/global/.yarnclean:
     ~/.babelrc:
-    ~/.eslintrc:
+    ~/.eslintrc.json:
     ~/.yarnrc:
     ~/.zshrc:
     ~/.aws/config:

@@ -11,5 +11,5 @@ max_line_length = 100
 [*.{js,ts}]
 indent_style = tab
 
-[*.{json,babelrc,zshrc,yaml,yml,conf,editorconfig,gitconfig,gitignore,gitattributes,sh,zsh}]
+[{*.json,*.babelrc,*.zshrc,*.yaml,*.yml,*.conf,*.editorconfig,*.gitconfig,*.gitignore,*.gitattributes,*.sh,*.zsh,.*,Brewfile}]
 indent_style = space
