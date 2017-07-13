@@ -3,7 +3,7 @@
   "dependencies": {
     "@angular/cli": "^1.2.1",
     "auto-install": "^1.7.4",
-    "ava": "^0.20.0",
+    "ava": "^0.21.0",
     "babel-cli": "^6.24.1",
     "babel-eslint": "^7.2.3",
     "babel-preset-env": "^1.6.0",
