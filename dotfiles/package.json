@@ -1,7 +1,7 @@
 {
   "license": "UNLICENSED",
   "dependencies": {
-    "@angular/cli": "^1.2.0",
+    "@angular/cli": "^1.2.1",
     "auto-install": "^1.7.4",
     "ava": "^0.20.0",
     "babel-cli": "^6.24.1",
@@ -32,10 +32,10 @@
     "hpm-cli": "^2.0.1",
     "html5-to-pdf": "^2.2.4",
     "internal-ip": "^2.0.0",
-    "ionic": "^3.4.0",
+    "ionic": "^3.5.0",
     "ios-deploy": "^1.9.1",
     "ios-sim": "^6.0.0",
-    "jsdoc": "^3.5.1",
+    "jsdoc": "^3.5.2",
     "manage-wifi-cli": "^1.0.0",
     "markdown-pdf": "^8.0.0",
     "marked": "^0.3.6",
@@ -55,7 +55,7 @@
     "spot": "^0.2.0",
     "tslint": "^5.5.0",
     "typescript": "^2.4.1",
-    "webpack": "^3.1.0",
+    "webpack": "^3.2.0",
     "wifi-password-cli": "^1.0.0",
     "xo": "^0.18.2"
   }

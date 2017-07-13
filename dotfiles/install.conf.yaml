@@ -3,7 +3,7 @@
       create: true
       relink: true
 
-- clean: ['~', '~/.config', '~/Code/bootstrap']
+- clean: ['~', '~/.config', '~/Google\ Drive/Code/bootstrap']
 
 - link:
     ~/.angular-cli.json:
@@ -19,14 +19,15 @@
     ~/.eslintrc.json:
     ~/.yarnrc:
     ~/.zshrc:
+    ~/.piplist.py:
     ~/.aws/config:
     ~/.gnupg/gpg-agent.conf:
     ~/.gnupg/gpg.conf:
     ~/.config/yarn/global/package.json:
-    ~/Code/bootstrap/.editorconfig:
-    ~/Code/bootstrap/.gitattributes:
-    ~/Code/bootstrap/.gitconfig:
-    ~/Code/bootstrap/.babelrc:
+    ~/Google\ Drive/Code/bootstrap/.editorconfig:
+    ~/Google\ Drive/Code/bootstrap/.gitattributes:
+    ~/Google\ Drive/Code/bootstrap/.gitconfig:
+    ~/Google\ Drive/Code/bootstrap/.babelrc:
 
 - shell:
   - [git submodule update --init --remote --checkout, Updating dotbot]
