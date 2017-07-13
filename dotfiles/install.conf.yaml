@@ -24,10 +24,10 @@
     ~/.gnupg/gpg-agent.conf:
     ~/.gnupg/gpg.conf:
     ~/.config/yarn/global/package.json:
-    ~/Google\ Drive/Code/bootstrap/.editorconfig:
-    ~/Google\ Drive/Code/bootstrap/.gitattributes:
-    ~/Google\ Drive/Code/bootstrap/.gitconfig:
-    ~/Google\ Drive/Code/bootstrap/.babelrc:
+    ~/Google Drive/Code/bootstrap/.editorconfig:
+    ~/Google Drive/Code/bootstrap/.gitattributes:
+    ~/Google Drive/Code/bootstrap/.gitconfig:
+    ~/Google Drive/Code/bootstrap/.babelrc:
 
 - shell:
   - [git submodule update --init --remote --checkout, Updating dotbot]
