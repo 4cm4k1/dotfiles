@@ -49,7 +49,7 @@
     "pokemon-cli": "^1.0.1",
     "public-ip-cli": "^1.1.2",
     "pure-prompt": "^1.5.2",
-    "serve": "^6.0.2",
+    "serve": "^6.0.3",
     "sparkly-cli": "^1.2.0",
     "speed-test": "^1.8.0",
     "spot": "^0.2.0",
