@@ -1,7 +1,3 @@
-[profile mine]
-region = us-east-1
-output = json
-
 [default]
 region = us-west-2
 output = json

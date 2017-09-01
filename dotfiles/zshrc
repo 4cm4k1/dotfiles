@@ -31,7 +31,7 @@ DISABLE_UNTRACKED_FILES_DIRTY='false'
 HIST_STAMPS='yyyy-mm-dd'
 
 # ENABLE OH-MY-ZSH PLUGINS
-plugins=(adb aws bower catimg colored-man-pages common-aliases copybuffer copydir copyfile docker docker-compose dotenv emoji encode64 extract frontend-search gem git github grunt gulp heroku httpie jira jsontools ng node npm nyan osx pip thefuck web-search xcode yarn zsh-autosuggestions zsh-syntax-highlighting zsh_reload)
+plugins=(adb aws bower catimg common-aliases copybuffer copydir copyfile docker docker-compose dotenv emoji encode64 extract frontend-search gem git github grunt gulp heroku httpie jira jsontools ng node npm nyan osx pip thefuck web-search xcode yarn zsh-autosuggestions zsh-syntax-highlighting zsh_reload)
 
 # SET PACKAGE MANAGER & SDK LOCATIONS
 export BREW_HOME=$(brew --prefix)
@@ -46,6 +46,7 @@ export ANDROID_BIN=${ANDROID_PLATFORM_TOOLS}:${ANDROID_TOOLS}
 export COREUTILS_BIN=$(brew --prefix coreutils)/libexec/gnubin
 export DEFAULT_BIN=/usr/bin:/bin:/usr/sbin:/sbin
 export GCLOUD_BIN=${GCLOUD_SDK}/path.zsh.inc
+export DART_BIN=${HOME}/.pub-cache/bin
 
 # SET MANPATH COMPONENTS
 export COREUTILS_MAN=$(brew --prefix coreutils)/libexec/gnuman
@@ -55,7 +56,7 @@ source ${GCLOUD_BIN}
 source ${GCLOUD_SDK}/completion.zsh.inc
 
 # SET PATH & MANPATH
-export PATH=${COREUTILS_BIN}:${BREW_BIN}:${ANDROID_BIN}:${DEFAULT_BIN}:${PATH}
+export PATH=${COREUTILS_BIN}:${BREW_BIN}:${ANDROID_BIN}:${DART_BIN}:${DEFAULT_BIN}:${PATH}
 export MANPATH=${COREUTILS_MAN}
 
 # SET LANGUAGE & ENCODING
@@ -80,10 +81,10 @@ source ${ZSH}/oh-my-zsh.sh
 alias apm='apm-beta'
 alias atom='atom-beta'
 alias ccat='pygmentize -g -O style=colorful,linenos=1'
-alias gpg='gpg2'
 alias gr='gr'
 alias ls='ls --color=always -AGHX --group-directories-first'
 alias pip='pip3'
 alias python='python3'
-alias 1up='brew update && brew upgrade && gem update && python ~/.piplist.py | cut -d = -f1 | xargs -n1 pip3 install -U && gcloud components update && npm i -g npm@latest && yarn global upgrade-interactive'
+alias 1up='brew update && brew upgrade && gem update && python ~/.piplist.py | cut -d = -f1 | xargs -n1 pip3 install -U && gcloud components update && npm i -g npm@latest && 
+yarn global upgrade-interactive && apm update && mas outdated'
 alias cleanup='brew cleanup && brew prune && brew cask cleanup && yarn cache clean && npm cache verify && docker system prune -f && docker-clean'

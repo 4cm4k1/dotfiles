@@ -92,7 +92,7 @@
 [core]
 
   # Use custom `.gitignore` and `.gitattributes`
-  excludesfile = ~/.gitignore
+  excludesfile = /Users/4cm4k1/.gitignore
   attributesfile = ~/.gitattributes
 
   # Treat spaces before tabs and all kinds of trailing whitespace as an error
@@ -141,10 +141,11 @@
 
   # https://help.github.com/articles/signing-commits-using-gpg/
   gpgsign = true
+  template = /Users/4cm4k1/.stCommitMsg
 
 [gpg]
 
-  program = gpg2
+  program = gpg
 
 [diff]
 
@@ -204,3 +205,9 @@
 
   clean = expand --tabs=2
   smudge = expand --tabs=2
+[difftool "sourcetree"]
+  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+  path = 
+[mergetool "sourcetree"]
+  cmd = /Applications/SourceTree-Beta.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+  trustExitCode = true
