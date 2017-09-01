@@ -37,6 +37,7 @@ plugins=(adb aws bower catimg common-aliases copybuffer copydir copyfile docker 
 export BREW_HOME=$(brew --prefix)
 export ANDROID_HOME=${BREW_HOME}/Caskroom/android-sdk
 export GCLOUD_SDK=${BREW_HOME}/Caskroom/google-cloud-sdk/latest/google-cloud-sdk
+export DART_SDK=${BREW_HOME}/opt/dart/libexec
 
 # SET PATH COMPONENTS
 export BREW_BIN=${BREW_HOME}/bin:${BREW_HOME}/sbin
@@ -80,11 +81,9 @@ source ${ZSH}/oh-my-zsh.sh
 # ALIASES (MUST COME LAST)
 alias apm='apm-beta'
 alias atom='atom-beta'
-alias ccat='pygmentize -g -O style=colorful,linenos=1'
 alias gr='gr'
 alias ls='ls --color=always -AGHX --group-directories-first'
 alias pip='pip3'
 alias python='python3'
-alias 1up='brew update && brew upgrade && gem update && python ~/.piplist.py | cut -d = -f1 | xargs -n1 pip3 install -U && gcloud components update && npm i -g npm@latest && 
-yarn global upgrade-interactive && apm update && mas outdated'
+alias 1up='brew update && brew upgrade && gem update && python ~/.piplist.py | cut -d = -f1 | xargs -n1 pip3 install -U && gcloud components update && npm i -g npm@next && yarn global upgrade-interactive && apm update && mas outdated'
 alias cleanup='brew cleanup && brew prune && brew cask cleanup && yarn cache clean && npm cache verify && docker system prune -f && docker-clean'
