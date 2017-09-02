@@ -60,16 +60,44 @@ source ${GCLOUD_SDK}/completion.zsh.inc
 export PATH=${COREUTILS_BIN}:${BREW_BIN}:${ANDROID_BIN}:${DART_BIN}:${DEFAULT_BIN}:${PATH}
 export MANPATH=${COREUTILS_MAN}
 
-# SET LANGUAGE & ENCODING
-export LC_ALL=en_US.UTF-8
-export LANG='en_US'
-
 # SET EDITORS
 if [[ -n ${SSH_CONNECTION} ]]; then
   export EDITOR='nano'
 else
   export EDITOR='nano'
 fi
+
+# Adapted from https://github.com/mathiasbynens/dotfiles/blob/master/.exports
+
+# Enable persistent REPL history for `node`.
+export NODE_REPL_HISTORY=~/.node_history;
+# Allow 32³ entries; the default is 1000.
+export NODE_REPL_HISTORY_SIZE='32768';
+# Use sloppy mode by default, matching web browsers.
+export NODE_REPL_MODE='sloppy';
+
+# Make Python use UTF-8 encoding for output to stdin, stdout, and stderr.
+export PYTHONIOENCODING='UTF-8';
+
+# Increase Bash history size. Allow 32³ entries; the default is 500.
+export HISTSIZE='32768';
+export HISTFILESIZE="${HISTSIZE}";
+# Omit duplicates and commands that begin with a space from history.
+export HISTCONTROL='ignoreboth';
+
+# Prefer US English and use UTF-8.
+export LANG='en_US.UTF-8';
+export LC_ALL='en_US.UTF-8';
+
+# Highlight section titles in manual pages.
+export LESS_TERMCAP_md="${yellow}";
+
+# Don’t clear the screen after quitting a manual page.
+export MANPAGER='less -X';
+
+# Avoid issues with `gpg` as installed via Homebrew.
+# https://stackoverflow.com/a/42265848/96656
+export GPG_TTY=$(tty);
 
 # START GPG-AGENT
 export SSH_AUTH_SOCK=${HOME}/.gnupg/S.gpg-agent.ssh
@@ -86,4 +114,4 @@ alias ls='ls --color=always -AGHX --group-directories-first'
 alias pip='pip3'
 alias python='python3'
 alias 1up='brew update && brew upgrade && gem update && python ~/.piplist.py | cut -d = -f1 | xargs -n1 pip3 install -U && gcloud components update && npm i -g npm@next && yarn global upgrade-interactive && apm update && mas outdated'
-alias cleanup='brew cleanup && brew prune && brew cask cleanup && yarn cache clean && npm cache verify && docker system prune -f && docker-clean'
+alias cleanup='brew cleanup && brew prune && brew cask cleanup && gem cleanup && yarn cache clean && npm cache verify && docker system prune -f && docker-clean'

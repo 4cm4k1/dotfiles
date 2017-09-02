@@ -1,0 +1,38 @@
+{
+	"repos": [{
+		"name": "exports-navigator",
+		"url": "git@github.com:4cm4k1/exports-navigator.git",
+		"tags": ["self"],
+		"path": "Code"
+	}, {
+		"name": "bullshit-fyi",
+		"url": "git@github.com:4cm4k1/bullshit.fyi.git",
+		"tags": ["self"],
+		"path": "Code"
+	}, {
+		"name": "bootstrap",
+		"url": "git@github.com:4cm4k1/bootstrap.git",
+		"tags": ["self"],
+		"path": "Code"
+	}, {
+		"name": "autopool-io",
+		"url": "git@github.com:4cm4k1/autopool.io.git",
+		"tags": ["self"],
+		"path": "Code"
+	}, {
+		"name": "anthony-codes",
+		"url": "git@github.com:4cm4k1/anthony-codes.git",
+		"tags": ["self"],
+		"path": "Code"
+	}, {
+		"name": "launchcontrol",
+		"url": "git@bitbucket.org:dealerteamwork/launchcontrol.git",
+		"tags": ["work"],
+		"path": "Code"
+	}, {
+		"name": "cryptup-chrome",
+		"url": "git@github.com:4cm4k1/cryptup-chrome.git",
+		"tags": ["oss"],
+		"path": "Code"
+	}]
+}

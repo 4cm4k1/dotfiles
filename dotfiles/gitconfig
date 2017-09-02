@@ -1,4 +1,4 @@
-# src: https://github.com/mathiasbynens/dotfiles
+# Adapted from https://github.com/mathiasbynens/dotfiles
 
 [user]
 
@@ -9,7 +9,7 @@
 [alias]
 
   # View abbreviated SHA, description, and history graph of the latest 20 commits
-  l = log --pretty=oneline -n 20 --graph --abbrev-commit
+  l = log --pretty=oneline -n 20 --graph --abbrev-commit --show-signature
 
   # View the current working tree status using the short format
   s = status -s
@@ -36,6 +36,9 @@
   tags = tag -l
   branches = branch -a
   remotes = remote -v
+
+  # List aliases
+  aliases = config --get-regexp alias
 
   # Amend the currently staged files to the latest commit
   amend = commit --amend --reuse-message=HEAD
@@ -92,7 +95,7 @@
 [core]
 
   # Use custom `.gitignore` and `.gitattributes`
-  excludesfile = /Users/4cm4k1/.gitignore
+  excludesfile = ~/.gitignore
   attributesfile = ~/.gitattributes
 
   # Treat spaces before tabs and all kinds of trailing whitespace as an error
@@ -141,19 +144,11 @@
 
   # https://help.github.com/articles/signing-commits-using-gpg/
   gpgsign = true
-  template = /Users/4cm4k1/.stCommitMsg
-
-[gpg]
-
-  program = gpg
 
 [diff]
 
   # Detect copies as well as renames
   renames = copies
-  # Enable an experimental heuristic that shifts the hunk boundary in an
-  # attempt to make the resulting patch easier to read.
-  indentHeuristic = true
 
 [diff "bin"]
 
@@ -203,11 +198,17 @@
 
 [filter "spacify"]
 
-  clean = expand --tabs=2
-  smudge = expand --tabs=2
-[difftool "sourcetree"]
-  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-  path = 
-[mergetool "sourcetree"]
-  cmd = /Applications/SourceTree-Beta.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-  trustExitCode = true
+  clean = expand --tabs=2 --initial
+  smudge = expand --tabs=2 --initial
+
+[filter "tabify"]
+
+  clean = unexpand --tabs=2 --first-only
+  smudge = unexpand --tabs=2 --first-only
+
+[filter "lfs"]
+
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+  required = true
+  clean = git-lfs clean -- %f

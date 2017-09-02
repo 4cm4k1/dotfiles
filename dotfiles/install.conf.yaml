@@ -20,6 +20,13 @@
     ~/.yarnrc:
     ~/.zshrc:
     ~/.piplist.py:
+    ~/.aliases:
+    ~/.curlrc:
+    ~/.functions:
+    ~/.hushlogin:
+    ~/.inputrc:
+    ~/.screenrc:
+    ~/.wgetrc:
     ~/.aws/config:
     ~/.gnupg/gpg-agent.conf:
     ~/.gnupg/gpg.conf:

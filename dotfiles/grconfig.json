@@ -1,36 +1,17 @@
 {
   "tags": {
-    "azend": [
-      "/Users/4cm4k1/Workspace/bp-alert-service",
-      "/Users/4cm4k1/Workspace/bp-bill-service",
-      "/Users/4cm4k1/Workspace/bp-gateway-service",
-      "/Users/4cm4k1/Workspace/bp-outgoing-payment-service",
-      "/Users/4cm4k1/Workspace/bp-payment-service",
-      "/Users/4cm4k1/Workspace/bp-database",
-      "/Users/4cm4k1/Workspace/bp-deployment",
-      "/Users/4cm4k1/Workspace/bp-frontend",
-      "/Users/4cm4k1/Workspace/bp-qa"
+    "self": [
+      "/Users/4cm4k1/Code/anthony-codes",
+      "/Users/4cm4k1/Code/autopool-io",
+      "/Users/4cm4k1/Code/bootstrap",
+      "/Users/4cm4k1/Code/bullshit-fyi",
+      "/Users/4cm4k1/Code/exports-navigator"
     ],
-    "wc": [
-      "/Users/4cm4k1/Workspace/wc-analytics",
-      "/Users/4cm4k1/Workspace/wc-database",
-      "/Users/4cm4k1/Workspace/wc-mobile",
-      "/Users/4cm4k1/Workspace/wc-portal",
-      "/Users/4cm4k1/Workspace/wc-portal/bin"
+    "oss": [
+      "/Users/4cm4k1/Code/cryptup-chrome"
     ],
-    "website": [
-      "/Users/4cm4k1/Workspace/anthony-codes"
-    ],
-    "open-source": [
-      "/Users/4cm4k1/Workspace/cryptup-chrome",
-      "/Users/4cm4k1/Workspace/homebrew-cask",
-      "/Users/4cm4k1/Workspace/homebrew-fonts"
-    ],
-    "fun": [
-      "/Users/4cm4k1/Workspace/autopool-io",
-      "/Users/4cm4k1/Workspace/bootstrap",
-      "/Users/4cm4k1/Workspace/exports-navigator",
-      "/Users/4cm4k1/Workspace/bullshit-fyi"
+    "work": [
+      "/Users/4cm4k1/Code/launchcontrol"
     ]
   }
 }
