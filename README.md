@@ -1,6 +1,6 @@
 # Bootstrap
 
-Bootstrap a new Mac with [Anthony Maki's](https://github.com/4cm4k1) preferred software, packages, and configuration in one step.
+Bootstrap a new Mac with [**@4cm4k1**](https://github.com/4cm4k1)'s preferred software, packages, and configuration in one step.
 
 
 ## Table of Contents
