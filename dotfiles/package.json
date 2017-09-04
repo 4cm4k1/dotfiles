@@ -9,6 +9,7 @@
     "babel-preset-env": "^1.6.0",
     "chalk-cli": "^4.0.0",
     "clipboard-cli": "^1.1.0",
+    "conduct": "^1.0.2",
     "cordova": "^7.0.1",
     "dart-sass": "^1.0.0-beta.2",
     "eslint": "^4.6.1",
