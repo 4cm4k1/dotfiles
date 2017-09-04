@@ -38,6 +38,7 @@ export BREW_HOME=$(brew --prefix)
 export ANDROID_HOME=${BREW_HOME}/Caskroom/android-sdk
 export GCLOUD_SDK=${BREW_HOME}/Caskroom/google-cloud-sdk/latest/google-cloud-sdk
 export DART_SDK=${BREW_HOME}/opt/dart/libexec
+export FLUTTER_SDK=${HOME}/Code/flutter
 
 # SET PATH COMPONENTS
 export BREW_BIN=${BREW_HOME}/bin:${BREW_HOME}/sbin
@@ -48,6 +49,7 @@ export COREUTILS_BIN=$(brew --prefix coreutils)/libexec/gnubin
 export DEFAULT_BIN=/usr/bin:/bin:/usr/sbin:/sbin
 export GCLOUD_BIN=${GCLOUD_SDK}/path.zsh.inc
 export DART_BIN=${HOME}/.pub-cache/bin
+export FLUTTER_BIN=${FLUTTER_SDK}/bin
 
 # SET MANPATH COMPONENTS
 export COREUTILS_MAN=$(brew --prefix coreutils)/libexec/gnuman
@@ -57,7 +59,7 @@ source ${GCLOUD_BIN}
 source ${GCLOUD_SDK}/completion.zsh.inc
 
 # SET PATH & MANPATH
-export PATH=${COREUTILS_BIN}:${BREW_BIN}:${ANDROID_BIN}:${DART_BIN}:${DEFAULT_BIN}:${PATH}
+export PATH=${COREUTILS_BIN}:${BREW_BIN}:${ANDROID_BIN}:${DART_BIN}:${FLUTTER_BIN}:${DEFAULT_BIN}:${PATH}
 export MANPATH=${COREUTILS_MAN}
 
 # SET EDITORS
@@ -70,7 +72,7 @@ fi
 # Adapted from https://github.com/mathiasbynens/dotfiles/blob/master/.exports
 
 # Enable persistent REPL history for `node`.
-export NODE_REPL_HISTORY=~/.node_history;
+export NODE_REPL_HISTORY=${HOME}/.node_history;
 # Allow 32³ entries; the default is 1000.
 export NODE_REPL_HISTORY_SIZE='32768';
 # Use sloppy mode by default, matching web browsers.
