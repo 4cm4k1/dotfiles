@@ -32,6 +32,8 @@ Bootstrap a new Mac with [**@4cm4k1**](https://github.com/4cm4k1)'s preferred so
 
 ## Usage
 
+This is still under development and should **not** be used without reading the source. The Install step above is _idempotent_, meaning that you can repeat it over and over to get the same result. Changes made to various dotfiles will generally take effect immediately after opening a new console session. **Homebrew, Yarn, and other packages are not yet automatically installed.**
+
 
 ## Contributors
 
