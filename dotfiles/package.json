@@ -34,7 +34,7 @@
     "html5-to-pdf": "^2.2.7",
     "internal-ip-cli": "^1.0.0",
     "ionic": "^3.9.2",
-    "ios-deploy": "^1.9.1",
+    "ios-deploy": "^1.9.2",
     "ios-sim": "^6.0.0",
     "jsdoc": "^3.5.4",
     "manage-wifi-cli": "^1.0.0",
