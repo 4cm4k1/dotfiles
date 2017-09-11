@@ -85,11 +85,8 @@ export ZPLUG_HOME=/usr/local/opt/zplug
 source $ZPLUG_HOME/init.zsh
 
 zplug "zsh-users/zsh-history-substring-search"
-zplug "zsh-users/zsh-autosuggestions"
-zplug "zsh-users/zsh-completions"
-zplug "b4b4r07/emoji-cli", from:github
-zplug "b4b4r07/enhancd", use:init.sh, from:github
-zplug "felixr/docker-zsh-completion", from:github
+zplug "zsh-users/zsh-autosuggestions", defer:2
+zplug "zsh-users/zsh-completions", defer:2
 zplug "StackExchange/blackbox", from:github
 zplug "plugins/colored-man-pages", from:oh-my-zsh
 zplug "mafredri/zsh-async", from:github
