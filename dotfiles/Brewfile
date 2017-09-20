@@ -187,5 +187,3 @@ cask "suspicious-package"
 cask "the-unarchiver"
 cask "webpquicklook"
 cask "yubikey-piv-manager"
-mas "Pixelmator", id: 407963104
-mas "stts", id: 1187772509
