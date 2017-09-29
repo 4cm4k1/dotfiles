@@ -102,7 +102,6 @@ module.exports = {
 		'hypercwd',
 		'hyper-hide-title',
 		'hyperterm-paste',
-		'hyperterm-alternatescroll',
 		'hyperterm-cursor',
 		'hyper-snazzy'
 	],
