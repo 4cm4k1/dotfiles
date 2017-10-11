@@ -80,7 +80,7 @@ alias gr='gr'
 alias ls='ls --color=always -AGHX --group-directories-first'
 alias pip='pip3'
 alias python='python3'
-alias 1up='brew update && brew upgrade && gem update && python ~/.piplist.py | cut -d = -f1 | xargs -n1 pip3 install -U && gcloud components update && npm i -g npm@next && yarn global upgrade-interactive && apm update && mas outdated'
+alias 1up='brew update && brew upgrade && gem update && python ~/.piplist.py | cut -d = -f1 | xargs -n1 pip3 install -U && gcloud components update && npm i -g npm@next && yarn global upgrade-interactive --latest && apm update && mas outdated && zplug update && pubglobalupdate'
 alias cleanup='brew cleanup && brew prune && brew cask cleanup && gem cleanup && yarn cache clean && npm cache verify && docker system prune -f && docker-clean'
 
 export ZPLUG_HOME=/usr/local/opt/zplug
