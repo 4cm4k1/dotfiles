@@ -17,7 +17,7 @@
     "remark": "^8.0.0",
     "remark-cli": "^4.0.0",
     "remark-lint": "^6.0.1",
-    "remark-preset-github": "^0.0.6",
+    "remark-preset-github": "^0.0.7",
     "sort-package-json": "^1.7.1",
     "xo": "^0.18.2"
   },
