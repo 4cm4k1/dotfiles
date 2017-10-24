@@ -104,3 +104,6 @@ if ! zplug check --verbose; then
 fi
 
 zplug load
+
+# added by travis gem
+[ -f /Users/4cm4k1/.travis/travis.sh ] && source /Users/4cm4k1/.travis/travis.sh

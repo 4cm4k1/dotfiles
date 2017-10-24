@@ -22,6 +22,7 @@
     "fkill-cli": "^3.6.0",
     "generate": "^0.14.0",
     "generate-license": "^0.6.1",
+    "generator-chrome-extension": "^0.7.0",
     "get-port-cli": "^1.1.0",
     "gh-home": "^1.4.1",
     "git-run": "^0.5.4",
@@ -41,6 +42,7 @@
     "pageres-cli": "^4.0.0",
     "pokemon-cli": "^1.0.1",
     "public-ip-cli": "^1.1.2",
+    "release": "^2.5.2",
     "remark-cli": "^4.0.0",
     "remark-lint": "^6.0.1",
     "serve": "^6.0.6",
@@ -48,6 +50,7 @@
     "speed-test": "^1.8.0",
     "spot": "^0.2.0",
     "wifi-password-cli": "^1.0.0",
-    "xo": "^0.18.2"
+    "xo": "^0.18.2",
+    "yo": "^2.0.0"
   }
 }
