@@ -30,6 +30,7 @@
     ~/.aws/config:
     ~/.gnupg/gpg-agent.conf:
     ~/.gnupg/gpg.conf:
+    ~/.gnupg/dirmngr.conf:
     ~/.config/yarn/global/package.json:
     ~/Code/bootstrap/.editorconfig:
     ~/Code/bootstrap/.gitattributes:

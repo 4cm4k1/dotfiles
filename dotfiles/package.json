@@ -49,6 +49,7 @@
     "sparkly-cli": "^1.2.0",
     "speed-test": "^1.8.0",
     "spot": "^0.2.0",
+    "superstatic": "^5.0.1",
     "wifi-password-cli": "^1.0.0",
     "xo": "^0.18.2",
     "yo": "^2.0.0"
