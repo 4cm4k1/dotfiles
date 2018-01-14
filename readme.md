@@ -2,7 +2,6 @@
 
 Bootstrap a new Mac with [**@4cm4k1**](https://github.com/4cm4k1)'s preferred software, packages, and configuration in one step.
 
-
 ## Table of Contents
 
 * [Installation](#installation)
@@ -10,7 +9,6 @@ Bootstrap a new Mac with [**@4cm4k1**](https://github.com/4cm4k1)'s preferred so
 * [Contributors](#contributors)
 * [Credits](#credits)
 * [License](#license)
-
 
 ## Installation
 
@@ -29,18 +27,15 @@ Bootstrap a new Mac with [**@4cm4k1**](https://github.com/4cm4k1)'s preferred so
    ./dotfiles/install
    ```
 
-
 ## Usage
 
 This is still under development and should **not** be used without reading the source. The Install step above is _idempotent_, meaning that you can repeat it over and over to get the same result. Changes made to various dotfiles will generally take effect immediately after opening a new console session. **Homebrew, Yarn, and other packages are not yet automatically installed.**
-
 
 ## Contributors
 
 | Name             | Website                 |
 | ---------------- | ----------------------- |
 | **Anthony Maki** | <https://anthony.codes> |
-
 
 ## Credits
 
@@ -56,7 +51,6 @@ This is still under development and should **not** be used without reading the s
 * [Sindre Sorhus](https://github.com/sindresorhus)
 * [remark](https://github.com/wooorm/remark)
 
-
 ## License
 
-[MIT](LICENSE) © [Anthony Maki](https://anthony.codes)
+[MIT](license) © [Anthony Maki](https://anthony.codes)

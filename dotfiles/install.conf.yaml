@@ -6,7 +6,6 @@
 - clean: ['~', '~/.config', '~/Code/bootstrap']
 
 - link:
-    ~/.angular-cli.json:
     ~/.dotfiles: ''
     ~/.editorconfig:
     ~/.gitattributes:
@@ -16,7 +15,6 @@
     ~/.hyper.js:
     ~/.mongorc.js:
     ~/.babelrc:
-    ~/.eslintrc.json:
     ~/.yarnrc:
     ~/.zshrc:
     ~/.piplist.py:
