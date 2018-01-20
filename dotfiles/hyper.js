@@ -6,15 +6,15 @@ module.exports = {
     updateChannel: 'canary',
 
     // Default font size in pixels for all tabs
-    fontSize: 12,
+    fontSize: 14,
 
     // Font family with optional fallbacks
     fontFamily:
-      '"Noto Mono", "Roboto Mono", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+      '"Noto Sans Mono", "Noto Mono", "Roboto Mono", Inconsolata, monaco, Consolas, Menlo, Courier, monospace',
 
     // Font family to use for the UI with optional fallbacks
     uiFontFamily:
-      '"Noto Mono", "Roboto Mono", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+      '"Noto Sans Mono", "Noto Mono", "Roboto Mono", Inconsolata, monaco, Consolas, Menlo, Courier, monospace',
 
     // Terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
     cursorColor: '',
@@ -50,7 +50,7 @@ module.exports = {
     showWindowControls: '',
 
     // Custom padding (css format, i.e.: `top right bottom left`)
-    padding: '1em',
+    padding: '1rem',
 
     // The full list. if you're going to provide the full color palette,
     // including the 6 x 6 color cubes and the grayscale map, just provide
