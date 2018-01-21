@@ -13,8 +13,8 @@
       "yarn run bundle && yarn run remark && yarn run sort && pretty-quick --staged",
     "install": "./dotfiles/install",
     "postinstall": "./dotfiles/install",
-    "remark": "remark . -o",
-    "sort": "sort-package-json",
+    "remark": "remark . -o && git add '*.md'",
+    "sort": "sort-package-json && git add package.json",
     "prettier": "prettier '**/*.{css,js,json,md,scss}' --write"
   },
   "dependencies": {},
