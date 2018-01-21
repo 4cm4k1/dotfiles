@@ -1,6 +1,6 @@
 {
   "name": "bootstrap",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "utility for bootstrapping a new macOS machine",
   "bugs": "https://github.com/4cm4k1/bootstrap/issues",
   "license": "MIT",
