@@ -8,8 +8,11 @@
   "contributors": ["Anthony Maki <4cm4k1@gmail.com> (https://anthony.codes)"],
   "repository": "https://github.com/4cm4k1/bootstrap",
   "scripts": {
-    "precommit": "yarn run remark && yarn run sort && pretty-quick --staged",
+    "bundle": "brew bundle dump --force --global && git add dotfiles/Brewfile",
+    "precommit":
+      "yarn run bundle && yarn run remark && yarn run sort && pretty-quick --staged",
     "install": "./dotfiles/install",
+    "postinstall": "./dotfiles/install",
     "remark": "remark . -o",
     "sort": "sort-package-json",
     "prettier": "prettier '**/*.{css,js,json,md,scss}' --write"

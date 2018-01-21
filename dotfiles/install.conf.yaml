@@ -3,36 +3,37 @@
       create: true
       relink: true
 
-- clean: ['~', '~/.config', '~/Code/bootstrap']
+- clean: ['~', '~/Code/bootstrap']
 
 - link:
+    ~/.aws/config:
+    ~/Code/bootstrap/.editorconfig:
+    ~/Code/bootstrap/.gitattributes:
+    ~/Code/bootstrap/.gitconfig:
+    ~/.config/yarn/global/package.json:
     ~/.dotfiles: ''
+    ~/.gnupg/dirmngr.conf:
+    ~/.gnupg/gpg.conf:
+    ~/.gnupg/gpg-agent.conf:
+    ~/.aliases:
+    ~/.babelrc:
+    ~/.Brewfile:
+    ~/.curlrc:
     ~/.editorconfig:
+    ~/.functions:
     ~/.gitattributes:
     ~/.gitconfig:
     ~/.gitignore:
     ~/.grconfig.json:
-    ~/.hyper.js:
-    ~/.mongorc.js:
-    ~/.babelrc:
-    ~/.yarnrc:
-    ~/.zshrc:
-    ~/.piplist.py:
-    ~/.aliases:
-    ~/.curlrc:
-    ~/.functions:
     ~/.hushlogin:
+    ~/.hyper.js:
     ~/.inputrc:
+    ~/.mongorc.js:
+    ~/.piplist.py:
     ~/.screenrc:
     ~/.wgetrc:
-    ~/.aws/config:
-    ~/.gnupg/gpg-agent.conf:
-    ~/.gnupg/gpg.conf:
-    ~/.gnupg/dirmngr.conf:
-    ~/.config/yarn/global/package.json:
-    ~/Code/bootstrap/.editorconfig:
-    ~/Code/bootstrap/.gitattributes:
-    ~/Code/bootstrap/.gitconfig:
+    ~/.yarnrc:
+    ~/.zshrc:
 
 - shell:
   - [git submodule update --init --remote --checkout, Updating dotbot]
