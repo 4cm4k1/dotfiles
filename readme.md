@@ -1,4 +1,4 @@
-# Bootstrap
+# Bootstrap [![Greenkeeper](https://img.shields.io/badge/greenkeeper-enabled-brightgreen.svg?style=flat-square)](https://greenkeeper.io/) [![Code Style: Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) [![GitHub Release](https://img.shields.io/github/release/4cm4k1/bootstrap.svg?style=flat-square)](https://github.com/4cm4k1/bootstrap/releases) [![License](https://img.shields.io/github/license/4cm4k1/bootstrap.svg?style=flat-square)](license)
 
 Bootstrap a new Mac with [**@4cm4k1**](https://github.com/4cm4k1)'s preferred software, packages, and configuration in one step.
 
@@ -6,8 +6,10 @@ Bootstrap a new Mac with [**@4cm4k1**](https://github.com/4cm4k1)'s preferred so
 
 * [Installation](#installation)
 * [Usage](#usage)
+* [Contributing](#contributing)
 * [Contributors](#contributors)
-* [Credits](#credits)
+* [Changelog](#changelog)
+* [Prior Art](#prior-art)
 * [License](#license)
 
 ## Installation
@@ -29,7 +31,11 @@ Bootstrap a new Mac with [**@4cm4k1**](https://github.com/4cm4k1)'s preferred so
 
 ## Usage
 
-This is still under development and should **not** be used without reading the source. The Install step above is _idempotent_, meaning that you can repeat it over and over to get the same result. Changes made to various dotfiles will generally take effect immediately after opening a new console session. **Homebrew, Yarn, and other packages are not yet automatically installed.**
+Because this is still under active development and many tasks are still manually triggered, it is recommended that you read the source code before executing anything.
+
+## Contributing
+
+Please note that this project is released with a [Contributor Code of Conduct](code-of-conduct.md). By participating in this project you agree to abide by its terms.
 
 ## Contributors
 
@@ -37,7 +43,9 @@ This is still under development and should **not** be used without reading the s
 | ---------------- | ----------------------- |
 | **Anthony Maki** | <https://anthony.codes> |
 
-## Credits
+## [Changelog](changelog.md)
+
+## Prior Art
 
 * [Anish Athalye's Dotbot](https://github.com/anishathalye/dotbot)
 * [Mathias Bynens's dotfiles](https://github.com/mathiasbynens/dotfiles)

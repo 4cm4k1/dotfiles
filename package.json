@@ -10,7 +10,7 @@
   "scripts": {
     "precommit": "yarn run remark && yarn run sort && pretty-quick --staged",
     "install": "./dotfiles/install",
-    "remark": "remark readme.md -o",
+    "remark": "remark . -o",
     "sort": "sort-package-json",
     "prettier": "prettier '**/*.{css,js,json,md,scss}' --write"
   },
