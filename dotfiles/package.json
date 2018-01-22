@@ -34,7 +34,7 @@
     "speed-test": "^1.8.0",
     "spot": "^0.2.0",
     "superstatic": "^5.0.1",
-    "uglify-js": "^3.3.7",
+    "uglify-js": "^3.3.8",
     "wifi-password-cli": "^1.0.0",
     "xo": "^0.18.2"
   }
