@@ -29,7 +29,7 @@
     "prettier": "^1.10.2",
     "public-ip-cli": "^1.1.2",
     "release": "^3.1.5",
-    "serve": "^6.4.8",
+    "serve": "^6.4.9",
     "sparkly-cli": "^1.2.0",
     "speed-test": "^1.8.0",
     "spot": "^0.2.0",
