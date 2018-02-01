@@ -17,6 +17,7 @@ export DEFAULT_BIN=/usr/bin:/bin:/usr/sbin:/sbin
 export GCLOUD_BIN=${GCLOUD_SDK}/path.zsh.inc
 export DART_BIN=${HOME}/.pub-cache/bin
 export FLUTTER_BIN=${FLUTTER_SDK}/bin
+export RUST_BIN=${HOME}/.cargo/bin
 
 # SET MANPATH COMPONENTS
 export COREUTILS_MAN=$(brew --prefix coreutils)/libexec/gnuman
@@ -26,7 +27,7 @@ source ${GCLOUD_BIN}
 source ${GCLOUD_SDK}/completion.zsh.inc
 
 # SET PATH & MANPATH
-export PATH=${COREUTILS_BIN}:${BREW_BIN}:${ANDROID_BIN}:${DART_BIN}:${FLUTTER_BIN}:${DEFAULT_BIN}:${PATH}
+export PATH=${COREUTILS_BIN}:${BREW_BIN}:${ANDROID_BIN}:${DART_BIN}:${FLUTTER_BIN}:${RUST_BIN}:${DEFAULT_BIN}:${PATH}
 export MANPATH=${COREUTILS_MAN}:${MANPATH}
 
 # SET EDITORS

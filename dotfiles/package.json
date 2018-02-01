@@ -1,9 +1,9 @@
 {
   "license": "UNLICENSED",
   "dependencies": {
-    "@babel/cli": "^7.0.0-beta.38",
-    "@babel/core": "^7.0.0-beta.38",
-    "@babel/preset-env": "^7.0.0-beta.38",
+    "@babel/cli": "^7.0.0-beta.39",
+    "@babel/core": "^7.0.0-beta.39",
+    "@babel/preset-env": "^7.0.0-beta.39",
     "ava": "^0.24.0",
     "chalk-cli": "^4.0.0",
     "clipboard-cli": "^1.1.0",
