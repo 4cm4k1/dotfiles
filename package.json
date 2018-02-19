@@ -11,6 +11,7 @@
     "bundle": "brew bundle dump --force --global && git add dotfiles/Brewfile",
     "precommit":
       "yarn run bundle && yarn run remark && yarn run sort && pretty-quick --staged",
+    "decrypt": "blackbox_postdeploy",
     "install": "./dotfiles/install",
     "postinstall": "./dotfiles/install",
     "remark": "remark . -o && git add '*.md'",
