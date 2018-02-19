@@ -10,11 +10,16 @@
     ~/Code/bootstrap/.editorconfig:
     ~/Code/bootstrap/.gitattributes:
     ~/Code/bootstrap/.gitconfig:
+    ~/.config/configstore/firebase-tools.json:
     ~/.config/yarn/global/package.json:
     ~/.dotfiles: ''
     ~/.gnupg/dirmngr.conf:
     ~/.gnupg/gpg.conf:
     ~/.gnupg/gpg-agent.conf:
+    ~/.now/auth.json:
+    ~/.now/config.json:
+    ~/.rustup/settings.toml:
+    ~/.travis/config.yml:
     ~/.aliases:
     ~/.babelrc:
     ~/.Brewfile:
@@ -29,6 +34,7 @@
     ~/.hyper.js:
     ~/.inputrc:
     ~/.mongorc.js:
+    ~/.npmrc:
     ~/.piplist.py:
     ~/.screenrc:
     ~/.wgetrc:
