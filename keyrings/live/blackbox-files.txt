@@ -1,2 +1,3 @@
+dotfiles/auth.json
 dotfiles/firebase-tools.json
 dotfiles/npmrc
