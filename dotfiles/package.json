@@ -25,7 +25,7 @@
     "prettier": "^1.10.2",
     "public-ip-cli": "^1.1.2",
     "release": "^3.1.6",
-    "serve": "^6.4.10",
+    "serve": "^6.4.11",
     "speed-test": "^1.8.0",
     "spot": "^0.2.0",
     "superstatic": "^5.0.1",
