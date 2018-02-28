@@ -14,20 +14,20 @@ Bootstrap a new Mac with [**@4cm4k1**](https://github.com/4cm4k1)'s preferred so
 
 ## Installation
 
-1. Clone this repo and `cd` in.
+1.  Clone this repo and `cd` in.
 
-   ```shell
-   # For HTTPS
-   git clone https://github.com/4cm4k1/bootstrap.git && cd bootstrap
-   # For SSH
-   git clone git@github.com:4cm4k1/bootstrap.git && cd bootstrap
-   ```
+    ```shell
+    # For HTTPS
+    git clone https://github.com/4cm4k1/bootstrap.git && cd bootstrap
+    # For SSH
+    git clone git@github.com:4cm4k1/bootstrap.git && cd bootstrap
+    ```
 
-2. Install!
+2.  Install!
 
-   ```shell
-   ./dotfiles/install
-   ```
+    ```shell
+    ./dotfiles/install
+    ```
 
 ## Usage
 
