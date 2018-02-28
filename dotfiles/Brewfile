@@ -185,6 +185,7 @@ cask "caskroom/versions/hyper-canary"
 cask "caskroom/versions/slack-beta"
 cask "caskroom/versions/visual-studio-code-insiders"
 mas "Black Out", id: 1319884285
+mas "Gifski", id: 1351639930
 mas "Lungo", id: 1263070803
 mas "Pages", id: 409201541
 mas "Trello", id: 1278508951
