@@ -25,7 +25,7 @@
     "pokemon-cli": "^1.0.1",
     "prettier": "^1.11.1",
     "public-ip-cli": "^1.1.2",
-    "release": "^3.1.6",
+    "release": "^3.1.7",
     "serve": "^6.5.2",
     "speed-test": "^2.0.0",
     "spot": "^0.2.0",
