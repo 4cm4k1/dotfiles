@@ -106,13 +106,40 @@ alias 1up='atom_up && brew_up && flutter_up && gcloud_up && mac_up && npm_up && 
 export ZPLUG_HOME=/usr/local/opt/zplug
 source $ZPLUG_HOME/init.zsh
 
-zplug "zsh-users/zsh-history-substring-search"
-zplug "zsh-users/zsh-autosuggestions"
-zplug "zsh-users/zsh-completions", defer:2
 zplug "plugins/colored-man-pages", from:oh-my-zsh
 zplug "mafredri/zsh-async", from:github
 zplug "sindresorhus/pure", use:pure.zsh, from:github, as:theme
+zplug "zsh-users/zsh-completions"
+zplug "zsh-users/zsh-autosuggestions", defer:2
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
+zplug "zsh-users/zsh-history-substring-search", defer:3
+
+
+# ZSH history
+setopt append_history
+setopt hist_expire_dups_first
+setopt hist_fcntl_lock
+setopt hist_ignore_all_dups
+setopt hist_lex_words
+setopt hist_reduce_blanks
+setopt hist_save_no_dups
+setopt share_history
+
+export CLICOLOR=1
+export BLOCK_SIZE=human-readable # https://www.gnu.org/software/coreutils/manual/html_node/Block-size.html
+export HISTSIZE=11000
+export SAVEHIST=10000
+export HISTFILE=~/.zsh_history
+
+if zplug check zsh-users/zsh-autosuggestions; then
+  ZSH_AUTOSUGGEST_CLEAR_WIDGETS+=(history-substring-search-up history-substring-search-down) # Add history-substring-search-* widgets to list of widgets that clear the autosuggestion
+  ZSH_AUTOSUGGEST_CLEAR_WIDGETS=("${(@)ZSH_AUTOSUGGEST_CLEAR_WIDGETS:#(up|down)-line-or-history}") # Remove *-line-or-history widgets from list of widgets that clear the autosuggestion to avoid conflict with history-substring-search-* widgets
+fi
+
+if zplug check zsh-users/zsh-history-substring-search; then
+  bindkey '^[[A' history-substring-search-up
+  bindkey '^[[B' history-substring-search-down
+fi
 
 # Install plugins if there are plugins that have not been installed
 if ! zplug check --verbose; then
