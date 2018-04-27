@@ -89,11 +89,6 @@ module.exports = {
       cmdIsMeta: false,
       altIsMeta: false,
     },
-    // hyperlinks plugin config
-    hyperlinks: {
-      clickAction: 'open',
-      defaultBrowser: true,
-    },
   },
   // a list of plugins to fetch and install from npm
   // format: [@org/]project[#version]
@@ -101,15 +96,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: [
-    'hyperlinks',
-    'hyperterm-tab-icons',
-    'hypercwd',
-    'hyper-hide-title',
-    'hyperterm-paste',
-    'hyperterm-cursor',
-    'hyper-snazzy',
-  ],
+  plugins: ['hypercwd', 'hyper-hide-title', 'hyper-snazzy'],
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
   // to load it and avoid it being `npm install`ed
