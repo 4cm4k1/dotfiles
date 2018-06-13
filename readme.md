@@ -4,13 +4,13 @@ Bootstrap a new Mac with [**@4cm4k1**](https://github.com/4cm4k1)'s preferred so
 
 ## Table of Contents
 
-* [Installation](#installation)
-* [Usage](#usage)
-* [Contributing](#contributing)
-* [Contributors](#contributors)
-* [Changelog](#changelog)
-* [Prior Art](#prior-art)
-* [License](#license)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Contributors](#contributors)
+- [Changelog](#changelog)
+- [Prior Art](#prior-art)
+- [License](#license)
 
 ## Installation
 
@@ -47,17 +47,17 @@ Please note that this project is released with a [Contributor Code of Conduct](c
 
 ## Prior Art
 
-* [Anish Athalye's Dotbot](https://github.com/anishathalye/dotbot)
-* [Mathias Bynens's dotfiles](https://github.com/mathiasbynens/dotfiles)
-* [Alexander Karatarakis's gitattributes](https://github.com/alexkaratarakis/gitattributes)
-* [Simon Whitaker's gibo](https://github.com/simonwhitaker/gibo)
-* [Mikito Takada's gr](https://github.com/mixu/gr)
-* [Mark H. Nichols's Homebrew dependency-listing script](https://zanshin.net/2014/02/03/how-to-list-brew-dependencies/)
-* [Yarn](https://yarnpkg.com)
-* [Hyper](https://hyper.is)
-* [XO](https://github.com/sindresorhus/xo)
-* [Sindre Sorhus](https://github.com/sindresorhus)
-* [remark](https://github.com/wooorm/remark)
+- [Anish Athalye's Dotbot](https://github.com/anishathalye/dotbot)
+- [Mathias Bynens's dotfiles](https://github.com/mathiasbynens/dotfiles)
+- [Alexander Karatarakis's gitattributes](https://github.com/alexkaratarakis/gitattributes)
+- [Simon Whitaker's gibo](https://github.com/simonwhitaker/gibo)
+- [Mikito Takada's gr](https://github.com/mixu/gr)
+- [Mark H. Nichols's Homebrew dependency-listing script](https://zanshin.net/2014/02/03/how-to-list-brew-dependencies/)
+- [Yarn](https://yarnpkg.com)
+- [Hyper](https://hyper.is)
+- [XO](https://github.com/sindresorhus/xo)
+- [Sindre Sorhus](https://github.com/sindresorhus)
+- [remark](https://github.com/wooorm/remark)
 
 ## License
 
