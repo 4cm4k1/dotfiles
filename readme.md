@@ -1,4 +1,6 @@
-# dotfiles [![Build Status](https://img.shields.io/travis/4cm4k1/dotfiles/master.svg?style=flat-square)](https://travis-ci.org/4cm4k1/dotfiles) [![Greenkeeper](https://img.shields.io/badge/greenkeeper-enabled-brightgreen.svg?style=flat-square)](https://greenkeeper.io/) [![Code Style: Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) [![GitHub Release](https://img.shields.io/github/release/4cm4k1/dotfiles.svg?style=flat-square)](https://github.com/4cm4k1/dotfiles/releases) [![License](https://img.shields.io/github/license/4cm4k1/dotfiles.svg?style=flat-square)](license)
+# dotfiles
+
+[![Build Status](https://img.shields.io/travis/4cm4k1/dotfiles/master.svg?style=flat-square)](https://travis-ci.org/4cm4k1/dotfiles) [![Greenkeeper](https://img.shields.io/badge/greenkeeper-enabled-brightgreen.svg?style=flat-square)](https://greenkeeper.io/) [![Code Style: Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) [![GitHub Release](https://img.shields.io/github/release/4cm4k1/dotfiles.svg?style=flat-square)](https://github.com/4cm4k1/dotfiles/releases) [![License](https://img.shields.io/github/license/4cm4k1/dotfiles.svg?style=flat-square)](license) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2F4cm4k1%2Fdotfiles.svg?type=small)](https://app.fossa.io/projects/git%2Bgithub.com%2F4cm4k1%2Fdotfiles?ref=badge_small)
 
 dotfiles a new Mac with [**@4cm4k1**](https://github.com/4cm4k1)'s preferred software, packages, and configuration in one step.
 
@@ -59,6 +61,6 @@ Please note that this project is released with a [Contributor Code of Conduct](c
 - [Sindre Sorhus](https://github.com/sindresorhus)
 - [remark](https://github.com/wooorm/remark)
 
-## License
+## [License](license)
 
-[MIT](license) © [Anthony Maki](https://anthony.codes)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2F4cm4k1%2Fdotfiles.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2F4cm4k1%2Fdotfiles?ref=badge_large)
