@@ -3,7 +3,7 @@
 ## 1.0.0
 
 - Adds `.github` configuration files
-- Adds `alacritty.yml`
+- Adds `alacritty.yml`, plus additional config from [`v0.2.4`](https://github.com/jwilm/alacritty/releases/tag/v0.2.4)
 - Removes `.babelrc`, `.html-minifier.json`, and `.mongorc.js`
 - Moves `renovate.json` config into `package.json`
 - Moves `pre-commit` Git hook into `husky` config in `package.json`

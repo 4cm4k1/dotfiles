@@ -18,8 +18,8 @@ window:
   # Specified in number of columns/lines, not pixels.
   # If both are `0`, this setting is ignored.
   dimensions:
-    columns: 80
-    lines: 24
+    columns: 120
+    lines: 36
 
   # Window padding (changes require restart)
   #
@@ -28,6 +28,9 @@ window:
   padding:
     x: 10
     y: 10
+
+  # Spread additional padding evenly around the terminal content.
+  dynamic_padding: true
 
   # Window decorations
   #
@@ -46,6 +49,9 @@ window:
   #     - buttonless: Title bar, transparent background and title bar buttons
   #     - transparent: Title bar, transparent background, but no title bar buttons
   decorations: full
+
+  # When true, alacritty starts maximized.
+  start_maximized: false
 
 scrolling:
   # Maximum number of lines in the scrollback buffer.
@@ -83,22 +89,22 @@ font:
   normal:
     family: Noto Sans Mono
     # The `style` can be specified to pick a specific face.
-    style: Regular
+    style: Light
 
   # Bold font face
   bold:
     family: Noto Sans Mono
     # The `style` can be specified to pick a specific face.
-    style: Bold
+    style: Medium
 
   # Italic font face
   italic:
     family: Noto Sans Mono
     # The `style` can be specified to pick a specific face.
-    style: Thin
+    style: ExtraLight
 
   # Point size
-  size: 14.0
+  size: 12.0
 
   # Offset is the extra space around each character. `offset.y` can be thought of
   # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
@@ -117,15 +123,28 @@ font:
   #
   # Thin strokes are suitable for retina displays, but for non-retina screens
   # it is recommended to set `use_thin_strokes` to `false`
+  #
+  # macOS >= 10.14.x:
+  #
+  # If the font quality on non-retina display looks bad then set
+  # `use_thin_strokes` to `true` and enable font smoothing by running the
+  # following command:
+  #   `defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO`
+  #
+  # This is a global setting and will require a log out or restart to take
+  # effect.
   use_thin_strokes: true
 
 # Display the time it takes to redraw each frame.
 render_timer: false
 
+# Keep the log file after quitting Alacritty.
+persistent_logging: false
+
 # If `true`, bold text is drawn using the bright color variants.
 draw_bold_text_with_bright_colors: true
 
-# Colors (Snazzy)
+# Colors (Tomorrow Night Bright) - edited to use Snazzy color scheme
 colors:
   # Default colors
   primary:
@@ -213,7 +232,7 @@ colors:
 # Specifying a `duration` of `0` will disable the visual bell.
 visual_bell:
   animation: EaseOutQuint
-  duration: 100
+  duration: 500
 
 # Background opacity
 #
@@ -262,7 +281,7 @@ mouse:
     #
     # These are the modifiers that need to be held down for opening URLs when clicking
     # on them. The available modifiers are documented in the key binding section.
-    #modifiers: Command
+    #modifiers: Control|Shift
 
 selection:
   semantic_escape_chars: ',│`|:"'' ()[]{}<>'
@@ -359,6 +378,7 @@ shell:
 #   - ClearHistory
 #   - Hide
 #   - Quit
+#   - ClearLogNotice
 #
 # Values for `command`:
 #   The `command` field must be a map containing a `program` string and
@@ -389,6 +409,8 @@ key_bindings:
   - { key: Minus, mods: Command, action: DecreaseFontSize }
   - { key: K, mods: Command, action: ClearHistory }
   - { key: K, mods: Command, chars: "\x0c" }
+  - { key: L, mods: Control, action: ClearLogNotice }
+  - { key: L, mods: Control, chars: "\x0c" }
   - { key: PageUp, mods: Shift, chars: "\x1b[5;2~" }
   - { key: PageUp, mods: Control, chars: "\x1b[5;5~" }
   - { key: PageUp, chars: "\x1b[5~" }
