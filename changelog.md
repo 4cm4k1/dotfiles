@@ -14,6 +14,7 @@
 - Updates `.gitignore`
 - Updates `.prettierrc.json`
 - Upgrades `dotbot` submodule to latest version
+- Adds `ignore = dirty` to `.gitmodules`
 
 ## 0.9.9
 
