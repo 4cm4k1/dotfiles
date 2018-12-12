@@ -1,4 +1,4 @@
-dotfiles/auth.json
-dotfiles/config.yml
-dotfiles/firebase-tools.json
-dotfiles/npmrc
+files/auth.json
+files/config.yml
+files/firebase-tools.json
+files/npmrc

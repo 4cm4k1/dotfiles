@@ -21,7 +21,7 @@ export RUST_BIN=${HOME}/.cargo/bin
 export PYTHON_BIN=/usr/local/opt/python/libexec/bin
 # Fix problems between Android SDK Manager & Java 9
 # https://stackoverflow.com/questions/47150410/failed-to-run-sdkmanager-list-android-sdk-with-java-9
-export SDKMANAGER_OPTS='--add-modules java.se.ee'
+# export SDKMANAGER_OPTS='--add-modules java.se.ee'
 
 # SET MANPATH COMPONENTS
 export COREUTILS_MAN=$(brew --prefix coreutils)/libexec/gnuman
@@ -31,7 +31,7 @@ source ${GCLOUD_BIN}
 source ${GCLOUD_SDK}/completion.zsh.inc
 
 # SET PATH & MANPATH
-export PATH=${COREUTILS_BIN}:${BREW_BIN}:${ANDROID_BIN}:${DART_BIN}:${FLUTTER_BIN}:${RUST_BIN}:${PYTHON_BIN}:${DEFAULT_BIN}:${PATH}
+export PATH=${COREUTILS_BIN}:${BREW_BIN}:${ANDROID_BIN}:${DART_BIN}:${FLUTTER_BIN}:${JAVA_BIN}:${RUST_BIN}:${PYTHON_BIN}:${DEFAULT_BIN}:${PATH}
 export MANPATH=${COREUTILS_MAN}:${MANPATH}
 
 # SET EDITORS
@@ -77,7 +77,6 @@ export GPG_TTY=$(tty);
 export SSH_AUTH_SOCK=${HOME}/.gnupg/S.gpg-agent.ssh
 gpgconf --launch gpg-agent
 
-
 # ALIASES (MUST COME LAST)
 alias apm='apm-beta'
 alias atom='atom-beta'
@@ -85,7 +84,7 @@ alias gr='gr'
 alias ls='ls --color=always -AGHX --group-directories-first'
 # UPDATE & CLEAN COMMANDS
 alias atom_up='apm update -c false'
-alias brew_clean='brew cleanup && brew prune && brew cask cleanup'
+alias brew_clean='brew cleanup && brew prune'
 alias brew_up='brew update && brew upgrade'
 alias docker_clean='docker system prune -f && docker-clean'
 alias flutter_up='flutter upgrade'
@@ -113,7 +112,6 @@ zplug "zsh-users/zsh-completions"
 zplug "zsh-users/zsh-autosuggestions", defer:2
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
 zplug "zsh-users/zsh-history-substring-search", defer:3
-
 
 # ZSH history
 setopt append_history
@@ -153,6 +151,3 @@ zplug load
 
 # added by travis gem
 [ -f /Users/4cm4k1/.travis/travis.sh ] && source /Users/4cm4k1/.travis/travis.sh
-
-# Init jenv
-eval "$(jenv init -)"

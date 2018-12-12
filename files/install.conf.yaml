@@ -3,16 +3,17 @@
       create: true
       relink: true
 
-- clean: ['~', '~/Code/bootstrap']
+- clean: ['~', '~/Code/dotfiles']
 
 - link:
     ~/.aws/config:
-    ~/Code/bootstrap/.editorconfig:
-    ~/Code/bootstrap/.gitattributes:
-    ~/Code/bootstrap/.gitconfig:
+    ~/Code/dotfiles/.editorconfig:
+    ~/Code/dotfiles/.gitattributes:
+    ~/Code/dotfiles/.gitconfig:
+    ~/.config/alacritty/alacritty.yml:
     ~/.config/configstore/firebase-tools.json:
     ~/.config/yarn/global/package.json:
-    ~/.dotfiles: ''
+    ~/.files: ''
     ~/.gnupg/dirmngr.conf:
     ~/.gnupg/gpg.conf:
     ~/.gnupg/gpg-agent.conf:
@@ -21,7 +22,6 @@
     ~/.rustup/settings.toml:
     ~/.travis/config.yml:
     ~/.aliases:
-    ~/.babelrc:
     ~/.Brewfile:
     ~/.curlrc:
     ~/.editorconfig:
@@ -33,7 +33,6 @@
     ~/.hushlogin:
     ~/.hyper.js:
     ~/.inputrc:
-    ~/.mongorc.js:
     ~/.npmrc:
     ~/.piplist.py:
     ~/.screenrc:
@@ -42,4 +41,4 @@
     ~/.zshrc:
 
 - shell:
-  - [git submodule update --init --remote --checkout, Updating dotbot]
+    - [git submodule update --init --recursive --remote, Installing submodules]

@@ -1,1 +1,5 @@
-dotfiles/dotbot/
+# Directories ---------------
+# Yarn-installed packages
+node_modules
+# dotbot submodule files
+files/dotbot

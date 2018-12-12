@@ -1,18 +1,19 @@
-.babelrc
-.eslintrc
+# Directories ---------------
+# Yarn-installed packages
+node_modules
+# Files ---------------------
+# Blackbox files
+keyrings/live/pubring.gpg~
+keyrings/live/pubring.kbx~
+keyrings/live/secring.gpg
+# Files containing secrets
+files/npmrc
+files/firebase-tools.json
+files/auth.json
+files/config.yml
+# Root files linked from files/**/*
 .editorconfig
 .gitattributes
 .gitconfig
-*.DS_Store
-.AppleDouble
-.LSOverride
-Icon
-._*
-node_modules
-/keyrings/live/pubring.gpg~
-/keyrings/live/pubring.kbx~
-/keyrings/live/secring.gpg
-/dotfiles/npmrc
-/dotfiles/firebase-tools.json
-/dotfiles/auth.json
-/dotfiles/config.yml
+# Logs
+*.log

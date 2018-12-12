@@ -1,38 +1,43 @@
 {
-  "name": "bootstrap",
-  "version": "0.0.1",
+  "name": "dotfiles",
+  "version": "1.0.0",
+  "private": true,
   "description": "utility for bootstrapping a new macOS machine",
-  "bugs": "https://github.com/4cm4k1/bootstrap/issues",
-  "repository": "https://github.com/4cm4k1/bootstrap",
+  "bugs": "https://github.com/4cm4k1/dotfiles/issues",
+  "repository": "https://github.com/4cm4k1/dotfiles",
   "license": "MIT",
   "author": "Anthony Maki (https://anthony.codes) <4cm4k1@gmail.com>",
   "contributors": [
     "Anthony Maki (https://anthony.codes) <4cm4k1@gmail.com>"
   ],
   "scripts": {
-    "bundle": "brew bundle dump --force --global && git add dotfiles/Brewfile",
-    "precommit": "yarn run bundle && yarn run remark && yarn run sort && pretty-quick --staged",
+    "bundle": "brew bundle dump --force --global && git add files/Brewfile",
     "decrypt": "blackbox_postdeploy",
-    "install": "./dotfiles/install",
-    "postinstall": "./dotfiles/install",
-    "remark": "remark . -o && git add '*.md'",
-    "sort": "sort-package-json && git add package.json",
-    "prettier": "prettier '**/*.{css,js,json,md,scss}' --write"
+    "install": "./files/install",
+    "postinstall": "./files/install",
+    "prettier": "prettier {*,**/*}.{js,json,md,yaml,yml} --write"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn run bundle && pretty-quick --staged"
+    }
   },
   "dependencies": {},
   "devDependencies": {
-    "husky": "^0.14.3",
-    "prettier": "^1.13.7",
-    "pretty-quick": "^1.6.0",
-    "remark": "^9.0.0",
-    "remark-cli": "^5.0.0",
-    "remark-lint": "^6.0.2",
-    "remark-preset-github": "^0.0.8",
-    "sort-package-json": "^1.15.0"
+    "husky": "^1.2.0",
+    "prettier": "^1.15.3",
+    "pretty-quick": "^1.8.0"
   },
-  "remarkConfig": {
-    "plugins": [
-      "preset-github"
+  "renovate-config": {
+    "assignees": [
+      "4cm4k1"
+    ],
+    "extends": [
+      "config:base",
+      ":pinAllExceptPeerDependencies"
+    ],
+    "labels": [
+      "renovate"
     ]
   }
 }
