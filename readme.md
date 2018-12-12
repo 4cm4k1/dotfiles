@@ -27,12 +27,13 @@ This repo contains the source code for idempotently creating, maintaining, and s
 # With Git
 git clone https://github.com/4cm4k1/dotfiles # clones this repo
 cd dotfiles # changes directories
-./files/install # initiates installation using dotbot
+./files/install # initiates installation using Dotbot
 
 # With Curl
-curl -#L https://github.com/4cm4k1/dotfiles/tarball/master | tar -xzv -C dotfiles # downloads tarball of this repo and extracts it to dotfiles/
+mkdir dotfiles # creates directory
+curl -sL https://github.com/4cm4k1/dotfiles/tarball/master | tar -xz --strip-components 1 -C dotfiles # downloads & extracts tarball of this repo to created directory
 cd dotfiles # changes directories
-./files/install # initiates installation using dotbot
+./files/install # initiates installation using Dotbot
 ```
 
 ## Usage
