@@ -1,5 +1,8 @@
 # Changelog
 
+- Updates `readme.md`
+- Updates `description` in `package.json`
+
 ## 1.0.0
 
 - Adds `.github` configuration files
