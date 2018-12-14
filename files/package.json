@@ -32,7 +32,7 @@
     "pageres-cli": "^4.1.0",
     "percollate": "^0.3.0",
     "pokemon-cli": "^1.0.1",
-    "public-ip-cli": "^1.1.2",
+    "public-ip-cli": "^2.0.0",
     "release": "^4.0.2",
     "serve": "^10.1.1",
     "siteaudit": "^1.2.1",
