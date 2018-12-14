@@ -2,6 +2,8 @@
 
 - Updates `readme.md`
 - Updates `description` in `package.json`
+- Upgrades `husky` to latest version
+- Adds Homebrew `curl` to `PATH` in `zshrc`
 
 ## 1.0.0
 
