@@ -2,8 +2,9 @@
 
 - Updates `readme.md`
 - Updates `description` in `package.json`
-- Upgrades `husky` to latest version
+- Upgrades `fx`, `husky`, and `public-ip-cli` to latest versions
 - Adds Homebrew `curl` to `PATH` in `zshrc`
+- Removes `percollate` because of disuse and `nunjucks` dependency not upgraded to work with Node 11.x
 
 ## 1.0.0
 
