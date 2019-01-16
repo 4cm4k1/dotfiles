@@ -30,6 +30,7 @@ brew "python"
 brew "awscli"
 brew "bash"
 brew "bash-completion@2"
+brew "bat"
 brew "bazel"
 brew "gettext"
 brew "gmp"
@@ -53,6 +54,7 @@ brew "coreutils"
 brew "curl"
 brew "diffutils"
 brew "docker-clean"
+brew "fd"
 brew "findutils"
 brew "firebase-cli"
 brew "gibo"
@@ -71,9 +73,11 @@ brew "go"
 brew "gradle"
 brew "grep"
 brew "gzip"
+brew "hexyl"
 brew "hr"
 brew "httpie"
 brew "hub"
+brew "hyperfine"
 brew "python@2"
 brew "usbmuxd", args: ["HEAD"]
 brew "libimobiledevice", args: ["HEAD"]
@@ -84,6 +88,7 @@ brew "ios-sim"
 brew "jenv"
 brew "jq"
 brew "json-c"
+brew "less"
 brew "libyaml"
 brew "libyubikey"
 brew "lzip"
@@ -181,4 +186,5 @@ mas "Black Out", id: 1319884285
 mas "Gifski", id: 1351639930
 mas "Lungo", id: 1263070803
 mas "Pages", id: 409201541
+mas "TweetDeck", id: 485812721
 mas "Xcode", id: 497799835

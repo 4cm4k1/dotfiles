@@ -2,9 +2,11 @@
 
 - Updates `readme.md`
 - Updates `description` in `package.json`
-- Upgrades `fx`, `husky`, and `public-ip-cli` to latest versions
-- Adds Homebrew `curl` to `PATH` in `zshrc`
+- Upgrades `fx`, `husky`, `lighthouse`, `pretty-quick`, and `public-ip-cli` to latest versions
+- Adds Homebrew `curl` and `ruby` to `PATH` in `zshrc`
 - Removes `percollate` because of disuse and `nunjucks` dependency not upgraded to work with Node 11.x
+- Adds `bat`, `fd`, `hexyl`, `hyperfine`, and `less` to Homebrew dependencies
+- Adds TweetDeck to Mac App Store dependencies
 
 ## 1.0.0
 

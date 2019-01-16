@@ -20,7 +20,7 @@
     "internal-ip-cli": "^1.0.0",
     "ipt": "^2.1.0",
     "is-up-cli": "^2.0.0",
-    "lighthouse": "^4.0.0-beta",
+    "lighthouse": "^4.0.0",
     "localtunnel": "^1.9.1",
     "manage-wifi-cli": "^1.0.0",
     "ndb": "^1.0.42",
