@@ -32,7 +32,7 @@
     "pageres-cli": "^4.1.0",
     "pokemon-cli": "^1.0.1",
     "public-ip-cli": "^2.0.0",
-    "release": "^5.0.3",
+    "release": "^6.0.0",
     "serve": "^10.1.1",
     "siteaudit": "^1.2.1",
     "speed-test": "^2.0.0",
