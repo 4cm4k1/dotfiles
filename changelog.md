@@ -1,8 +1,10 @@
 # Changelog
 
+## Master
+
 - Updates `readme.md`
 - Updates `description` in `package.json`
-- Upgrades `fx`, `husky`, `lighthouse`, `pretty-quick`, and `public-ip-cli` to latest versions
+- Upgrades `fx`, `husky`, `lighthouse`, `prettier`, `pretty-quick`, `public-ip-cli`, and `release` to latest versions
 - Adds Homebrew `curl` and `ruby` to `PATH` in `zshrc`
 - Removes `percollate` because of disuse and `nunjucks` dependency not upgraded to work with Node 11.x
 - Adds `bat`, `fd`, `hexyl`, `hyperfine`, and `less` to Homebrew dependencies
