@@ -122,7 +122,7 @@ brew "yarn"
 brew "ykpers"
 brew "yubico-piv-tool"
 brew "zplug"
-brew "zsh", args: ["with-unicode9"]
+brew "zsh"
 brew "dart-lang/dart/dart"
 brew "vitorgalvao/tiny-scripts/cask-repair"
 cask "1password-beta"
@@ -182,9 +182,9 @@ cask "visual-studio-code-insiders"
 cask "webpquicklook"
 cask "yubico-authenticator"
 cask "yubico-yubikey-piv-manager"
-mas "Black Out", id: 1319884285
-mas "Gifski", id: 1351639930
-mas "Lungo", id: 1263070803
-mas "Pages", id: 409201541
-mas "TweetDeck", id: 485812721
-mas "Xcode", id: 497799835
+mas "", id: 1263070803
+mas "", id: 1319884285
+mas "", id: 485812721
+mas "", id: 409201541
+mas "", id: 497799835
+mas "", id: 1351639930

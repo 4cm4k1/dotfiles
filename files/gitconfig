@@ -195,20 +195,3 @@
 [url "git://gist.github.com/"]
 
   insteadOf = "gist:"
-
-[filter "spacify"]
-
-  clean = expand --tabs=2 --initial
-  smudge = expand --tabs=2 --initial
-
-[filter "tabify"]
-
-  clean = unexpand --tabs=2 --first-only
-  smudge = unexpand --tabs=2 --first-only
-
-[filter "lfs"]
-
-  smudge = git-lfs smudge -- %f
-  process = git-lfs filter-process
-  required = true
-  clean = git-lfs clean -- %f

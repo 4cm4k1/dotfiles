@@ -84,7 +84,7 @@ alias gr='gr'
 alias ls='ls --color=always -AGHX --group-directories-first'
 # UPDATE & CLEAN COMMANDS
 alias atom_up='apm update -c false'
-alias brew_clean='brew cleanup && brew prune'
+alias brew_clean='brew cleanup'
 alias brew_up='brew update && brew upgrade'
 alias docker_clean='docker system prune -f && docker-clean'
 alias flutter_up='flutter upgrade'
