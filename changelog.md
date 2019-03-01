@@ -4,7 +4,7 @@
 
 - Updates `readme.md`
 - Updates `description` in `package.json`
-- Upgrades `fx`, `husky`, `lighthouse`, `pageres-cli`, `prettier`, `pretty-quick`, `public-ip-cli`, `release`, `serve`, and `terminalizer` to latest versions
+- Upgrades `fx`, `husky`, `lighthouse`, `ndb`, `pageres-cli`, `prettier`, `pretty-quick`, `public-ip-cli`, `release`, `serve`, `speed-test`, and `terminalizer` to latest versions
 - Adds Homebrew `curl` and `ruby` to `PATH` in `zshrc`
 - Removes `percollate` because of disuse and `nunjucks` dependency not upgraded to work with Node 11.x
 - Adds `bat`, `fd`, `hexyl`, `hyperfine`, and `less` to Homebrew dependencies
@@ -12,6 +12,7 @@
 - Updates `alacritty.yml` to match config options in [`v0.2.7`](https://github.com/jwilm/alacritty/releases/tag/v0.2.7)
 - Removes custom filters from `gitconfig`
 - Removes deprecated `brew prune` command from `zshrc`
+- Adds `capture-website-cli` to Yarn dependencies
 
 ## 1.0.0
 

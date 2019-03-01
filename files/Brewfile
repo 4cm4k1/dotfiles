@@ -8,7 +8,6 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/dupes"
-tap "homebrew/fuse"
 tap "homebrew/php"
 tap "homebrew/services"
 tap "homebrew/versions"
@@ -65,7 +64,7 @@ brew "pcre"
 brew "gnu-getopt"
 brew "gnu-indent", args: ["with-default-names"]
 brew "gnu-sed"
-brew "gnu-tar", args: ["with-default-names"]
+brew "gnu-tar"
 brew "gnu-time", args: ["with-default-names"]
 brew "gnu-units"
 brew "gnu-which", args: ["with-default-names"]
@@ -183,8 +182,8 @@ cask "webpquicklook"
 cask "yubico-authenticator"
 cask "yubico-yubikey-piv-manager"
 mas "", id: 1263070803
-mas "", id: 1319884285
+mas "", id: 1351639930
 mas "", id: 485812721
 mas "", id: 409201541
 mas "", id: 497799835
-mas "", id: 1351639930
+mas "", id: 1319884285
