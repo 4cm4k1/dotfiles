@@ -4,7 +4,7 @@
 
 - Updates `readme.md`
 - Updates `description` in `package.json`
-- Upgrades `fx`, `husky`, `lighthouse`, `ndb`, `pageres-cli`, `prettier`, `pretty-quick`, `public-ip-cli`, `release`, `serve`, `speed-test`, and `terminalizer` to latest versions
+- Upgrades `carbon-now-cli`, `fx`, `husky`, `lighthouse`, `ndb`, `pageres-cli`, `prettier`, `pretty-quick`, `public-ip-cli`, `release`, `serve`, `speed-test`, and `terminalizer` to latest versions
 - Adds Homebrew `curl` and `ruby` to `PATH` in `zshrc`
 - Removes `percollate` because of disuse and `nunjucks` dependency not upgraded to work with Node 11.x
 - Adds `bat`, `fd`, `hexyl`, `hyperfine`, and `less` to Homebrew dependencies
