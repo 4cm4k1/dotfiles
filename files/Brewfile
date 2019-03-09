@@ -92,6 +92,7 @@ brew "libyaml"
 brew "libyubikey"
 brew "lzip"
 brew "mas"
+brew "micro"
 brew "mkcert"
 brew "ncurses"
 brew "nano"
@@ -135,6 +136,7 @@ cask "bartender"
 cask "betterzip"
 cask "discord-canary"
 cask "docker-edge"
+cask "font-fira-code"
 cask "font-noto-mono"
 cask "font-noto-sans"
 cask "font-noto-sans-display"
@@ -182,8 +184,8 @@ cask "webpquicklook"
 cask "yubico-authenticator"
 cask "yubico-yubikey-piv-manager"
 mas "", id: 1263070803
-mas "", id: 1351639930
+mas "", id: 1319884285
 mas "", id: 485812721
 mas "", id: 409201541
+mas "", id: 1351639930
 mas "", id: 497799835
-mas "", id: 1319884285
