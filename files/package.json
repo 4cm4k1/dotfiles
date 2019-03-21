@@ -4,7 +4,7 @@
     "bin-version-check-cli": "^2.0.0",
     "bin-version-cli": "^1.0.0",
     "bundle-phobia-cli": "^0.11.0",
-    "capture-website-cli": "^0.1.2",
+    "capture-website-cli": "^0.2.0",
     "carbon-now-cli": "^1.4.0",
     "chalk-cli": "^4.1.0",
     "clipboard-cli": "^1.1.0",
