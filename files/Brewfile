@@ -14,7 +14,6 @@ tap "jesseduffield/lazygit"
 tap "stepanstipl/noop"
 tap "theeternalsw0rd/telnet"
 tap "vitorgalvao/tiny-scripts"
-cask "java8"
 brew "ack"
 brew "icu4c"
 brew "node"
@@ -25,7 +24,6 @@ brew "gdbm"
 brew "openssl"
 brew "sqlite"
 brew "xz"
-brew "python"
 brew "awscli"
 brew "bash"
 brew "bash-completion@2"
@@ -132,6 +130,7 @@ brew "jesseduffield/lazygit/lazygit"
 brew "vitorgalvao/tiny-scripts/cask-repair"
 cask "1password-beta"
 cask "1password-cli"
+cask "adoptopenjdk8"
 cask "alacritty"
 cask "alfred"
 cask "android-studio-preview"
@@ -167,6 +166,7 @@ cask "logitech-options"
 cask "notable"
 cask "now"
 cask "onyx"
+cask "openinterminal"
 cask "postico"
 cask "provisionql"
 cask "qlcolorcode"
@@ -183,14 +183,15 @@ cask "slack-beta"
 cask "suspicious-package"
 cask "the-unarchiver"
 cask "transmission"
+cask "transmit"
 cask "visual-studio-code-insiders"
 cask "webpquicklook"
 cask "whatsapp"
 cask "yubico-authenticator"
 cask "yubico-yubikey-piv-manager"
-mas "com.apple.dt.Xcode", id: 497799835
-mas "com.apple.iWork.Pages", id: 409201541
-mas "com.sindresorhus.Black-Out", id: 1319884285
-mas "com.sindresorhus.Gifski", id: 1351639930
-mas "com.sindresorhus.Lungo", id: 1263070803
-mas "com.twitter.TweetDeck", id: 485812721
+mas "Black Out", id: 1319884285
+mas "Gifski", id: 1351639930
+mas "Lungo", id: 1263070803
+mas "Pages", id: 409201541
+mas "TweetDeck", id: 485812721
+mas "Xcode", id: 497799835

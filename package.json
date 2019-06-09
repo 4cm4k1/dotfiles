@@ -11,7 +11,8 @@
     "Anthony Maki (https://anthony.codes) <4cm4k1@gmail.com>"
   ],
   "scripts": {
-    "bundle": "brew bundle dump --force --global && git add files/Brewfile",
+    "bundle": "brew bundle dump --force --global",
+    "bundle:add": "git add files/Brewfile",
     "decrypt": "blackbox_postdeploy",
     "install": "./files/install",
     "postinstall": "./files/install",
@@ -19,14 +20,14 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn run bundle && pretty-quick --staged"
+      "pre-commit": "yarn bundle && yarn bundle:add && pretty-quick --staged"
     }
   },
   "dependencies": {},
   "devDependencies": {
-    "husky": "^1.3.1",
-    "prettier": "^1.17.0",
-    "pretty-quick": "^1.10.0"
+    "husky": "^2.4.0",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^1.11.0"
   },
   "renovate-config": {
     "assignees": [
