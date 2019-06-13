@@ -11,7 +11,7 @@
     "conduct": "^2.3.0",
     "create-next-app": "^0.5.9",
     "file-icon-cli": "^2.0.0",
-    "file-type-cli": "^3.0.0",
+    "file-type-cli": "^4.0.0",
     "file-url-cli": "^1.0.0",
     "find-versions-cli": "^3.0.0",
     "fkill-cli": "^5.2.0",
