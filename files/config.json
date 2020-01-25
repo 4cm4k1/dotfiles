@@ -4,6 +4,7 @@
   "desktop": {
     "shownTips": {
       "pasteFromClipboard": true
-    }
+    },
+    "updateCLI": true
   }
 }

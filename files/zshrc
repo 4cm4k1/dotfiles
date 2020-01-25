@@ -108,7 +108,7 @@ source $ZPLUG_HOME/init.zsh
 
 zplug "plugins/colored-man-pages", from:oh-my-zsh
 zplug "mafredri/zsh-async", from:github
-zplug "sindresorhus/pure", use:pure.zsh, from:github, as:theme
+#zplug "sindresorhus/pure", use:pure.zsh, from:github, as:theme
 zplug "zsh-users/zsh-completions"
 zplug "zsh-users/zsh-autosuggestions", defer:2
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
@@ -154,3 +154,4 @@ zplug load
 [ -f /Users/4cm4k1/.travis/travis.sh ] && source /Users/4cm4k1/.travis/travis.sh
 export PATH="/usr/local/opt/curl/bin:$PATH"
 export PATH="/usr/local/opt/ruby/bin:$PATH"
+eval "$(starship init zsh)"
