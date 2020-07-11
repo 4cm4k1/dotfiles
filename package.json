@@ -25,8 +25,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "husky": "^4.2.1",
-    "prettier": "^1.19.1",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5",
     "pretty-quick": "^2.0.1"
   },
   "renovate-config": {
