@@ -155,3 +155,4 @@ zplug load
 export PATH="/usr/local/opt/curl/bin:$PATH"
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 eval "$(starship init zsh)"
+fpath+=${ZDOTDIR:-~}/.zsh_functions
