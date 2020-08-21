@@ -23,6 +23,7 @@ brew "node"
 brew "angular-cli"
 brew "readline"
 brew "augeas"
+brew "gettext"
 brew "gdbm"
 brew "sqlite"
 brew "xz"
@@ -32,7 +33,6 @@ brew "bash"
 brew "bash-completion@2"
 brew "bat"
 brew "bazel"
-brew "gettext"
 brew "gmp"
 brew "libffi"
 brew "libunistring"
@@ -89,7 +89,6 @@ brew "ideviceinstaller"
 brew "imagemagick"
 brew "imageoptim-cli"
 brew "insect"
-brew "ios-deploy"
 brew "ios-sim"
 brew "jenv"
 brew "jq"
@@ -192,6 +191,7 @@ cask "notable"
 cask "onyx"
 cask "openinterminal"
 cask "pdf-expert-beta"
+cask "plex-media-server"
 cask "postico"
 cask "rectangle"
 cask "sf-symbols"
@@ -207,12 +207,9 @@ cask "whatsapp"
 cask "yubico-authenticator"
 cask "yubico-yubikey-piv-manager"
 mas "Black Out", id: 1319884285
-mas "Dato", id: 1470584107
-mas "Gifski", id: 1351639930
 mas "Keynote", id: 409183694
 mas "Lungo", id: 1263070803
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Scroll", id: 1477273814
-mas "Tim", id: 1449619230
 mas "Xcode", id: 497799835
