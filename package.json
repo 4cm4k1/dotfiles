@@ -15,6 +15,7 @@
     "bundle:add": "git add files/Brewfile",
     "decrypt": "blackbox_postdeploy",
     "install": "./files/install",
+    "pre-commit": "pretty-quick --staged",
     "postinstall": "./files/install && husky install",
     "prettier": "prettier {*,**/*}{,.*} --write"
   },

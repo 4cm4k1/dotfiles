@@ -1,19 +1,19 @@
-# Directories ---------------
-# Yarn-installed packages
+# directories ---------------
+# `npm` packages
 node_modules
-# Files ---------------------
-# Blackbox files
+# files ---------------------
+# `blackbox` files
 keyrings/live/pubring.gpg~
 keyrings/live/pubring.kbx~
 keyrings/live/secring.gpg
-# Files containing secrets
+# files containing secrets
 files/npmrc
 files/firebase-tools.json
 files/auth.json
 files/config.yml
-# Root files linked from files/**/*
+# root files linked from `files/**/*`
 .editorconfig
 .gitattributes
 .gitconfig
-# Logs
+# logs
 *.log

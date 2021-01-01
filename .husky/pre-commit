@@ -1,4 +1,4 @@
 #!/bin/sh
 . "$(dirname $0)/_/husky.sh"
 
-yarn bundle && yarn bundle:add && yarn pretty-quick --staged
+npm run bundle && npm run bundle:add && npm run pre-commit

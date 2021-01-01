@@ -1,6 +1,6 @@
 # Changelog
 
-## December 31, 2020
+## 2020-12-31
 
 - Upgrades `husky` to `^5.0.6`, `prettier` to `^2.2.1`, `pretty-quick` to `^3.1.0`
 - Moves `husky` config from `package.json` to `.husky/*`
@@ -12,6 +12,10 @@
 - Adds `pyenv` and `volta` config to `.zshrc`
 - Reorders `zplug load` in `.zshrc`
 - Updates `Brewfile` with `brew bundle`
+- Edits `.ignore` files
+- Adds front matter to `code_of_conduct.md`
+- Adds `pre-commit` script to `package.json`
+- Uses `pre-commit` script in `.husky/pre-commit`
 
 ## Previously Master
 

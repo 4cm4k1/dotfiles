@@ -1,3 +1,8 @@
+---
+name: Code of Conduct
+about: Be a good open-source community member!
+---
+
 # Contributor Covenant Code of Conduct
 
 ## Our Pledge

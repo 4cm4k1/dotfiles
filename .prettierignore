@@ -1,7 +1,7 @@
-# Directories ---------------
-# `husky` Git hooks
+# directories ---------------
+# `husky` `git` hooks
 .husky
-# Yarn-installed packages
+# `npm` packages
 node_modules
-# dotbot submodule files
+# `dotbot` submodule files
 files/dotbot
