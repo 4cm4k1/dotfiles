@@ -1,6 +1,19 @@
 # Changelog
 
-## Master
+## December 31, 2020
+
+- Upgrades `husky` to `^5.0.6`, `prettier` to `^2.2.1`, `pretty-quick` to `^3.1.0`
+- Moves `husky` config from `package.json` to `.husky/*`
+- Removes `renovate` config from `package.json`
+- Updates `.github/code_of_conduct.md` to Contributor Covenant Code of Conduct v2.0
+- Updates `license` to Hippocratic v2.1
+- Adds `.husky` to `.prettierignore`
+- Updates `.prettierrc.json`
+- Adds `pyenv` and `volta` config to `.zshrc`
+- Reorders `zplug load` in `.zshrc`
+- Updates `Brewfile` with `brew bundle`
+
+## Previously Master
 
 - Updates `readme.md`
 - Updates `description` in `package.json`

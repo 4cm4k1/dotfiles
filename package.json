@@ -5,40 +5,27 @@
   "description": "Quick, idempotent arbitrary OS configuration utility – made with Dotbot",
   "bugs": "https://github.com/4cm4k1/dotfiles/issues",
   "repository": "https://github.com/4cm4k1/dotfiles",
-  "license": "MIT",
-  "author": "Anthony Maki (https://anthony.codes) <4cm4k1@gmail.com>",
+  "license": "Hippocratic 2.1",
+  "author": "Anthony Maki (https://anthony.app) <4cm4k1@gmail.com>",
   "contributors": [
-    "Anthony Maki (https://anthony.codes) <4cm4k1@gmail.com>"
+    "Anthony Maki (https://anthony.app) <4cm4k1@gmail.com>"
   ],
   "scripts": {
     "bundle": "brew bundle dump --force --global",
     "bundle:add": "git add files/Brewfile",
     "decrypt": "blackbox_postdeploy",
     "install": "./files/install",
-    "postinstall": "./files/install",
-    "prettier": "prettier {*,**/*}.{js,json,md,yaml,yml} --write"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn bundle && yarn bundle:add && pretty-quick --staged"
-    }
+    "postinstall": "./files/install && husky install",
+    "prettier": "prettier {*,**/*}{,.*} --write"
   },
   "dependencies": {},
   "devDependencies": {
-    "husky": "^4.2.5",
-    "prettier": "^2.0.5",
-    "pretty-quick": "^3.0.0"
+    "husky": "^5.0.6",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0"
   },
-  "renovate-config": {
-    "assignees": [
-      "4cm4k1"
-    ],
-    "extends": [
-      "config:base",
-      ":pinAllExceptPeerDependencies"
-    ],
-    "labels": [
-      "renovate"
-    ]
+  "volta": {
+    "node": "15.5.0",
+    "npm": "7.3.0"
   }
 }

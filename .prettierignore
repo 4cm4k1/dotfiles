@@ -1,4 +1,6 @@
 # Directories ---------------
+# `husky` Git hooks
+.husky
 # Yarn-installed packages
 node_modules
 # dotbot submodule files

@@ -110,9 +110,9 @@ zplug "plugins/colored-man-pages", from:oh-my-zsh
 zplug "mafredri/zsh-async", from:github
 #zplug "sindresorhus/pure", use:pure.zsh, from:github, as:theme
 zplug "zsh-users/zsh-completions"
-zplug "zsh-users/zsh-autosuggestions", defer:2
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
 zplug "zsh-users/zsh-history-substring-search", defer:3
+zplug "zsh-users/zsh-autosuggestions", defer:3
 
 # ZSH history
 setopt append_history
@@ -156,3 +156,6 @@ export PATH="/usr/local/opt/curl/bin:$PATH"
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 eval "$(starship init zsh)"
 fpath+=${ZDOTDIR:-~}/.zsh_functions
+eval "$(pyenv init -)"
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"

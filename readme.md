@@ -46,9 +46,9 @@ Currently, the `install` script is incomplete, so while `dotfiles` will be symbo
 
 ## Contributors
 
-| Name             | Website                 |
-| ---------------- | ----------------------- |
-| **Anthony Maki** | <https://anthony.codes> |
+| Name             | Website               |
+| ---------------- | --------------------- |
+| **Anthony Maki** | <https://anthony.app> |
 
 ## [Changelog](changelog.md)
 
