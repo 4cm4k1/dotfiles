@@ -19,14 +19,13 @@
     "postinstall": "./files/install && husky install",
     "prettier": "prettier {*,**/*}{,.*} --write"
   },
-  "dependencies": {},
   "devDependencies": {
-    "husky": "^5.0.6",
+    "husky": "^5.0.8",
     "prettier": "^2.2.1",
     "pretty-quick": "^3.1.0"
   },
   "volta": {
-    "node": "15.5.0",
-    "npm": "7.3.0"
+    "node": "15.7.0",
+    "npm": "7.5.1"
   }
 }
